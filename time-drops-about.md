@@ -13,8 +13,11 @@ The **Time Drops Wireless Swim Timing System** is used by over half of the teams
 Time Drops is a **wireless electronic timing system** consisting of dedicated hardware components:
 
 - **Wireless timer buttons (PB-2)** - Keyfob-style devices that timers press when swimmers touch the wall
+  ![Time Drops Buttons](assets/time-drops/time-drops-buttons-01.png)
 - **Timing controller (STC-1)** - The "heart" of the system with a precision reference clock
+  ![Time Drops Controller](assets/time-drops/time-drops-controller-stc001.jpg)
 - **Start adapter (SA-1)** - Wirelessly receives signals from starting systems
+  ![Time Drops Start Adapter](assets/time-drops/time-drops-starter-02.png)
 - **Android tablet** - Runs the Time Drops Console app to manage the system
 - **Windows laptop** - Runs MM-Link software to bridge to meet management software (Hy-Tek Meet Manager or SwimTopia Meet Maestro)
 
@@ -31,6 +34,7 @@ Time Drops is a **wireless electronic timing system** consisting of dedicated ha
 ### Why Teams Use Time Drops
 
 **Benefits:**
+
 - **Cost-Effective** - Less expensive than traditional electronic timing systems
 - **Wireless** - No cables to set up or manage at poolside
 - **Quick Setup** - System ready in minutes, not hours
@@ -102,16 +106,17 @@ Over 50% of GPSA teams currently use Time Drops for dual meets. The system integ
 
 - **SwimTopia Meet Maestro** - For GPSA meet management
 
-### GPSA Meet Requirements
+### GPSA Meet Best Practices
 
-Teams using Time Drops must:
+For the best meet experience with Time Drops it is recommended:
 
-- Maintain **manual backup timing** with stopwatches (per GPSA rules)
-- Have **backup Wi-Fi** available (mobile hotspot recommended)
+- Maintain **manual backup timing** with stopwatches
+- Use a dedicated travel router for the timing system Wi-Fi like the [GL.iNet GL-SFT1200](https://www.amazon.com/GL-iNet-GL-SFT1200-Secure-Travel-Router/dp/B09N72FMH5?crid=L8UXFKV9RNMW&dib=eyJ2IjoiMSJ9.Iacoh3kugJDfgFKiXO0fTtaZvj0YSn1x0chmEu_VWjnFxnk_q2vc8ux2Eq9_mVUrxaT6zcSKR-vWOAeQqWL20B5SECTgpVvfkgTtcJZnuEooWRS0EPaTv_a_e-2olfr2S1uY1FkgwZ06mX69C4sbHUg0pFfZqsGspvTnM6zLjeIVXy_PTYOG0Cb6jIZY4Ngir7MlnHZwsxZej-_sl3PhYQC3qVTatqIAoLJ55QkiGrfJM_fGDCt-GGa6hiR0SzMEWTKi9RfjIk-pP5TrlIrRbxrQavjuUmhgyo7qnNex19I.yKuv3a-yzrSfJsUM-aYX2BDji5RuNjyXYRV71nzsMtU&dib_tag=se&keywords=gl.inet%2Btravel%2Brouter&qid=1768407065&s=electronics&sprefix=gl.inet%2Btravel%2Brotuer%2Celectronics%2C431&sr=1-7&th=1)
+- Place the travel router in a position with a clear view of the laptop, tablet, and STC-1 controller
 - Train volunteers on system operation
 - Follow GPSA event order and scoring rules
 
-**Important:** Manual backup times are official if the electronic system fails.
+**Important:** Manual backup times are official **only** if the electronic system fails.
 
 ## Setting Up at a Meet
 
