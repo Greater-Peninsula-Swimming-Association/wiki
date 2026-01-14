@@ -1,0 +1,43 @@
+# GPSA Wiki Jekyll Configuration
+# GitHub Pages will automatically process this file
+
+# Site settings
+title: GPSA Wiki
+description: Greater Peninsula Swimming Association Knowledge Base
+url: "https://wiki.gpsaswimming.org"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  auto_ids: true
+  toc_levels: 2..3
+
+# Exclude from processing
+exclude:
+  - .claude/
+  - temp/
+  - incoming/
+  - preview/
+  - README.md
+  - CLAUDE.md
+  - .gitignore
+  - .DS_Store
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "wiki"
+
+# Plugin settings (GitHub Pages safe plugins only)
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag

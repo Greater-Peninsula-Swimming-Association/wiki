@@ -1,0 +1,27 @@
+# Jekyll build files
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby/Bundle
+vendor/
+.bundle/
+Gemfile.lock
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor directories
+.vscode/
+.idea/
+.claude/
+
+# Temporary files
+*.swp
+*.swo
+*~
+.tmp/
+temp/
