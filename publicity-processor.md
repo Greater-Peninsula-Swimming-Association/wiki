@@ -44,6 +44,7 @@ The Publicity Processor transforms raw SDIF (Swimming Data Interchange Format) d
 SDIF (Swimming Data Interchange Format) is the standard format for swim meet data. SwimTopia exports results in this format.
 
 **Supported File Types:**
+
 - `.sd3` - Standard SDIF extension
 - `.txt` - Text files containing SDIF data
 
@@ -72,6 +73,7 @@ The tool can extract and process SDIF files from zip archives:
 ### From Meet Management Software
 
 Most meet management software (Hy-Tek, SwimTopia, Meet Manager) can export to SDIF format. Look for:
+
 - Export options or buttons
 - "SDIF" or "SD3" format choices
 - Avoid "HY3" format (not supported)
@@ -83,7 +85,7 @@ Most meet management software (Hy-Tek, SwimTopia, Meet Manager) can export to SD
 SDIF files contain meet data in a structured text format. Key record types:
 
 | Record Type | Description | Example Data |
-|-------------|-------------|--------------|
+| ------------- | ------------- | -------------- |
 | **B1** | Meet information | Meet name, date (MMDDYYYY format) |
 | **B2** | Host team information | Team name, location |
 | **C1** | Team record | Team code, full team name |
@@ -92,6 +94,7 @@ SDIF files contain meet data in a structured text format. Key record types:
 | **F0** | Relay swimmers | Individual names of relay swimmers |
 
 The tool's `parseSdif()` function processes these records to extract:
+
 - Meet title and date
 - Competing teams
 - Event details (distance, stroke, age group, gender)
@@ -107,6 +110,7 @@ The tool's `parseSdif()` function processes these records to extract:
 3. Wait for "File loaded successfully!" notification (green toast)
 
 **If uploading a zip file:**
+
 - Tool extracts automatically
 - Shows "Extracting SDIF file from zip archive..." toast (blue)
 - If successful, shows "SDIF file extracted successfully!" (green)
@@ -133,6 +137,7 @@ If the meet had special circumstances (forfeit, cancellation, weather override),
 4. Save to your results directory (e.g., `results/2025/`)
 
 **Naming Convention is Critical!** The archive builder (`build_archive.py`) relies on this exact format to:
+
 - Auto-detect season year
 - Parse team matchups
 - Generate division standings
@@ -143,6 +148,7 @@ If the meet had special circumstances (forfeit, cancellation, weather override),
 ### When to Use Overrides
 
 Use the special circumstances feature when:
+
 - A team forfeits the meet (cannot field enough swimmers)
 - Meet is cancelled but winner needs to be recorded
 - League rules require score override (weather, safety, etc.)
@@ -160,6 +166,7 @@ Use the special circumstances feature when:
 ### Standard Forfeit Scoring
 
 When override is active:
+
 - **Winning team:** 1.0 points
 - **Losing team:** 0.0 points
 - Team Scores table shows 1.0 vs 0.0 (ensures correct win/loss tracking)
@@ -168,13 +175,14 @@ When override is active:
 
 Exported HTML includes a prominent yellow warning banner:
 
-```
+```text
 ⚠️ SPECIAL CIRCUMSTANCES
 Winner: [Winning Team Name]
 Reason: [Your explanation text]
 ```
 
 This banner:
+
 - Appears at the top of the exported HTML
 - Uses inline styles for portability
 - Is clearly visible to anyone viewing results
@@ -183,6 +191,7 @@ This banner:
 ### Archive Builder Compatibility
 
 Forfeit exports are **fully compatible** with `build_archive.py`:
+
 - No special processing required
 - Team Scores table shows 1.0 vs 0.0
 - Follows standard `YYYY-MM-DD_TEAM1_v_TEAM2.html` naming
@@ -213,12 +222,14 @@ The tool automatically generates meet titles for dual meets:
 ### How Host Team is Determined
 
 The tool identifies the host team from:
+
 1. SDIF B2 record (host team information)
 2. Team code starting with "VA" (prefix is stripped)
 
 ### Team Name Handling
 
 Team codes starting with "VA" have the prefix removed:
+
 - `VAGG` → `GG` (Glendale)
 - `VAWW` → `WW` (Wendwood)
 
@@ -251,6 +262,7 @@ The exported HTML includes:
 ### Self-Contained Files
 
 Exported HTML files are self-contained:
+
 - All styling embedded (no external CSS dependencies)
 - Can be moved anywhere without breaking
 - Safe to archive long-term
@@ -261,12 +273,14 @@ Exported HTML files are self-contained:
 ### Individual Events
 
 For each individual swimming event, the tool displays:
+
 - **Event Number and Description:** "Event 3: Girls 11-12 50 Freestyle"
 - **Winner:** Name, team abbreviation, time, points earned
 - **Runner-up:** (if different from winner)
 
 **Example Output:**
-```
+
+```text
 Event 5: Boys 9-10 50 Butterfly
 Winner: Smith, John (GG) - 35.42 - 5 points
 ```
@@ -274,13 +288,15 @@ Winner: Smith, John (GG) - 35.42 - 5 points
 ### Relay Events
 
 Relay events display:
+
 - Event description with relay designation
 - Team that won
 - Individual relay swimmer names (on separate lines)
 - Time and points
 
 **Example Output:**
-```
+
+```text
 Event 23: Girls 13-14 200 Freestyle Relay
 Winner: Glendale Gators - 2:08.56 - 7 points
   • Johnson, Sarah
@@ -292,6 +308,9 @@ Winner: Glendale Gators - 2:08.56 - 7 points
 ### Age Group Formats
 
 The tool handles various age group formats:
+
+- "6 & Under"
+- "7-8"
 - "8 & Under"
 - "9-10"
 - "11-12"
@@ -308,6 +327,7 @@ All are parsed and displayed consistently.
 **Cause:** File may be corrupted, not in SDIF format, or wrong format (HY3).
 
 **Solution:**
+
 - Verify file is in SDIF/SD3 format (not HY3)
 - Re-export from SwimTopia or meet software
 - Try opening file in text editor to verify contents
@@ -318,6 +338,7 @@ All are parsed and displayed consistently.
 **Cause:** Zip file doesn't contain .sd3 or .txt file, or file is too large.
 
 **Solution:**
+
 - Unzip manually and upload SDIF file directly
 - Verify zip contains SDIF file (not just HY3 or other formats)
 - Check file is under 256KB
@@ -327,6 +348,7 @@ All are parsed and displayed consistently.
 **Cause:** SDIF file may not have C1 (team record) entries.
 
 **Solution:**
+
 - Check SDIF file has team information records
 - Team codes will display as abbreviations if full names missing
 - Re-export with full team information
@@ -336,6 +358,7 @@ All are parsed and displayed consistently.
 **Cause:** SDIF file missing B1 record with meet date.
 
 **Solution:**
+
 - Re-export from source with complete meet information
 - Manually add date when saving file (use filename convention)
 
@@ -344,6 +367,7 @@ All are parsed and displayed consistently.
 **Cause:** SDIF file missing F0 records following E0 relay records.
 
 **Solution:**
+
 - Some software doesn't export relay swimmer names
 - Tool will show team that won relay but not individual names
 - This is a limitation of the source SDIF file, not the tool
@@ -353,6 +377,7 @@ All are parsed and displayed consistently.
 **Cause:** Browser may be blocking downloads or popup permissions.
 
 **Solution:**
+
 - Check browser's download settings
 - Allow popups/downloads from the tool's domain
 - Try different browser (Chrome, Firefox, Safari, Edge)
@@ -389,6 +414,7 @@ All are parsed and displayed consistently.
 ### XSS Protection
 
 All user-generated content is sanitized using `escapeHtml()` function:
+
 - Prevents cross-site scripting attacks
 - Escape special HTML characters
 - Safe to display user-provided forfeit reasons
@@ -396,6 +422,7 @@ All user-generated content is sanitized using `escapeHtml()` function:
 ### Safe Output
 
 Exported HTML is safe and portable:
+
 - No inline JavaScript
 - No external dependencies (except Tailwind CDN)
 - No tracking or analytics code
@@ -411,6 +438,7 @@ Exported HTML is safe and portable:
 ### Browser Compatibility
 
 Works in all modern browsers:
+
 - Chrome 90+
 - Firefox 88+
 - Safari 14+
@@ -427,6 +455,7 @@ Works in all modern browsers:
 ### SDIF Parser
 
 The tool's parser (`parseSdif()` function) is approximately 130 lines of JavaScript and handles:
+
 - B1, B2, C1 records (meet/team info)
 - D0 records (individual results)
 - E0 records (relay results)
@@ -449,14 +478,17 @@ The `build_archive.py` script relies on filenames to:
 1. Export meet results with this tool → `2025-06-16_GG_v_WW.html`
 2. Save to results directory → `results/2025/`
 3. Run archive builder:
+
    ```bash
    python dev-tools/build_archive.py -i results/2025 -o results/2025
    ```
+
 4. Generated archive includes all meets with standings
 
 ### Forfeit Compatibility
 
 Files with override scores work seamlessly:
+
 - 1.0 vs 0.0 scores are recognized as wins/losses
 - Override banner is preserved in archive
 - No manual intervention needed
@@ -472,6 +504,7 @@ Files with override scores work seamlessly:
 ### Can I edit the HTML after export?
 
 Yes! The exported HTML is standard HTML and can be edited in any text editor or HTML editor. However:
+
 - Maintain consistent structure for archive builder compatibility
 - Don't change team scores in the table
 - Keep filename convention intact
@@ -483,6 +516,7 @@ HY3 files are 65-70% larger and use complex multi-line records requiring extensi
 ### Can I customize the styling?
 
 The tool uses Tailwind CSS via CDN. To customize:
+
 - Download the exported HTML
 - Modify Tailwind classes directly in HTML
 - Or add custom CSS `<style>` block
@@ -492,6 +526,7 @@ Note: Customizations won't persist when re-generating from SDIF.
 ### Does the tool store any data?
 
 No. All processing happens client-side in your browser:
+
 - SDIF files are not uploaded to any server
 - No data is stored or transmitted
 - All data is temporary in browser memory
@@ -499,6 +534,7 @@ No. All processing happens client-side in your browser:
 ### Can I process multiple meets at once?
 
 No, the tool processes one meet at a time. For bulk processing:
+
 - Use `dev-tools/bulk_process_results.py` Python script
 - Or process files individually through the web tool
 
@@ -514,6 +550,7 @@ For issues or questions:
 ---
 
 **Quick Links:**
+
 - [Access the Tool](/tools/publicity.html)
 - [All GPSA Tools](/tools/)
 - [Meet Management](/meet-management)

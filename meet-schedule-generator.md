@@ -40,11 +40,13 @@ The CSV file used by this tool is the **master schedule file** that is uploaded 
 - Maintained as the authoritative source for the season schedule
 
 **Who has this file?**
+
 - League officers (President, VP, Scheduler)
 - Division coordinators
 - GPSA webmaster
 
 **When is it created?**
+
 - Before the season starts (typically May)
 - Updated if meet dates or matchups change
 
@@ -55,7 +57,7 @@ If you need the CSV file, contact your league administrator or division coordina
 The CSV file must contain these columns:
 
 | Column Name | Description | Example |
-|-------------|-------------|---------|
+| ------------- | ------------- | --------- |
 | `MeetDate` | Date of the meet | `6/16/2025` |
 | `HomeTeam` | Home team abbreviation | `GG` |
 | `VisitingTeam` | Away team abbreviation | `WW` |
@@ -73,6 +75,7 @@ The tool requires you to specify which division the schedule is for:
 ### Auto-Detection
 
 The tool will automatically detect the division if your filename contains one of these keywords:
+
 - `red` → Selects Red Division
 - `white` → Selects White Division
 - `blue` → Selects Blue Division
@@ -84,7 +87,7 @@ The tool will automatically detect the division if your filename contains one of
 The tool automatically converts SwimTopia team abbreviations to readable names:
 
 | Abbreviation | Display Name |
-|--------------|--------------|
+| -------------- | -------------- |
 | BLMAR | Beaconsdale |
 | COL | Colony |
 | CV | Coventry |
@@ -110,7 +113,7 @@ If a team abbreviation is not in this list, it will be displayed as-is.
 
 The tool generates HTML that renders as:
 
-```
+```text
 MONDAY JUNE 16
 ----------------------------------
 Glendale          vs    Wendwood
@@ -123,6 +126,7 @@ James River       vs    Northampton
 ```
 
 The output uses:
+
 - GPSA brand colors (Navy Blue #002366)
 - Responsive table design (mobile-friendly)
 - Consistent formatting matching other GPSA pages
@@ -165,6 +169,7 @@ If embedding on another platform:
 ### Responsive Design
 
 The generated schedules are fully responsive and display well on:
+
 - **Desktop** - Full width with proper spacing
 - **Tablet** - Optimized for medium screens
 - **Mobile** - Stacked layout for readability
@@ -178,6 +183,7 @@ The generated schedules are fully responsive and display well on:
 ### Toast Notifications
 
 The tool uses modern toast notifications instead of popup alerts:
+
 - ✓ **Success** (green) - CSV loaded successfully
 - ✕ **Error** (red) - CSV parsing errors or missing columns
 - ℹ **Info** (blue) - Processing updates
@@ -195,6 +201,7 @@ The tool uses modern toast notifications instead of popup alerts:
 **Cause:** The file may be corrupted or not a valid CSV format.
 
 **Solution:**
+
 1. Open the CSV in a text editor to verify it looks correct
 2. Check that the file is saved as CSV format (not `.xlsx` or other spreadsheet format)
 3. Contact your league administrator for a fresh copy of the schedule CSV
@@ -222,6 +229,7 @@ The tool uses modern toast notifications instead of popup alerts:
 ### Browser Compatibility
 
 The tool works in all modern browsers:
+
 - Chrome 90+
 - Firefox 88+
 - Safari 14+
@@ -274,6 +282,7 @@ For issues or questions about the Meet Schedule Generator:
 ---
 
 **Quick Links:**
+
 - [Access the Tool](/tools/meet-schedule.html)
 - [All GPSA Tools](/tools/)
 - [Meet Management](/meet-management)

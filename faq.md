@@ -39,6 +39,7 @@ Dual meets typically last 2-3 hours. Invitational meets run longer depending on 
 ### What should swimmers bring to a meet?
 
 Essential items include:
+
 - Swimsuit and cap (in team colors)
 - Towels
 - Goggles
@@ -54,6 +55,7 @@ Absolutely! Parent support is encouraged. Most pools have spectator areas. Pleas
 ### What if my child is nervous about competing?
 
 It's normal to feel nervous! Here are some tips:
+
 - Arrive early to get comfortable with the environment
 - Talk to coaches and teammates
 - Remember that everyone is supportive
@@ -104,6 +106,7 @@ Swimmers must compete for the team associated with their pool membership or neig
 ### Do parents need to volunteer?
 
 Most teams require parent volunteers for various roles:
+
 - Timers
 - Stroke and turn judges
 - Runner/clerk of course
@@ -142,6 +145,7 @@ The league does charge a fee per swimmer and per event entered. Some teams may c
 ### What is SwimTopia?
 
 SwimTopia is the online platform GPSA uses for:
+
 - Meet management
 - Results posting
 - Team rosters

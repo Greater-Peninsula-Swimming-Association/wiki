@@ -56,7 +56,7 @@ The tool includes modern enhancements for security, usability, and data persiste
 The CSV must contain these columns:
 
 | Column Name | Description | Example |
-|-------------|-------------|---------|
+| ------------- | ------------- | --------- |
 | `AgeGroup` | Age group (may include gender prefix) | `9-10`, `Boys 11-12` |
 | `AthleteCompetitionCategory` | Gender code | `M` or `F` |
 | `AthleteDisplayName` | Swimmer's full name | `Smith, John` |
@@ -101,6 +101,7 @@ Contacts are team representatives, coordinators, or key personnel. To add a cont
 ### Phone Formatting
 
 Phone numbers are automatically formatted as `(XXX) XXX-XXXX`:
+
 - Input: `7575551234`
 - Output: `(757) 555-1234`
 
@@ -134,6 +135,7 @@ Officials are certified volunteers who work meets. To add an official:
 ### Certification Levels
 
 Common GPSA official certification levels:
+
 - **Stroke & Turn Judge**
 - **Starter**
 - **Referee**
@@ -143,6 +145,7 @@ Common GPSA official certification levels:
 ### Data Persistence
 
 Like contacts, officials also:
+
 - Auto-save to localStorage
 - Persist across browser sessions
 - Can be cleared with **Clear Officials** button
@@ -166,6 +169,7 @@ Three export buttons are available:
 3. **Export Officials HTML** - Copies officials list HTML to clipboard
 
 Each export:
+
 - Copies HTML to your clipboard via modern Clipboard API
 - Shows green success toast notification
 - Can be pasted directly into SwimTopia HTML editor
@@ -211,6 +215,7 @@ When the season changes or roster updates are needed:
 **Cause:** CSV doesn't have required `AgeGroup`, `AthleteCompetitionCategory`, `AthleteDisplayName`, or `AthleteAge` columns.
 
 **Solution:**
+
 - Re-export from SwimTopia using **Team Roster** export
 - Verify you're exporting the roster, not meet results or entries
 
@@ -219,6 +224,7 @@ When the season changes or roster updates are needed:
 **Cause:** One or more email fields have invalid format.
 
 **Solution:**
+
 - Look for email fields with **red borders**
 - Correct the email format (must include `@` and domain)
 - Email validation updates on blur (when you click away from field)
@@ -228,6 +234,7 @@ When the season changes or roster updates are needed:
 **Cause:** Browser localStorage was cleared or you're using a different browser/device.
 
 **Solution:**
+
 - Re-enter contacts and officials (they'll auto-save)
 - Consider keeping a backup document with contact info
 - Use same browser/device for consistency
@@ -237,6 +244,7 @@ When the season changes or roster updates are needed:
 **Cause:** Phone formatting only applies to 10-digit US phone numbers.
 
 **Solution:**
+
 - Enter exactly 10 digits (no spaces, dashes, or parentheses)
 - Formatting applies when you click away from field (on blur)
 - For non-US numbers, enter with desired formatting
@@ -246,6 +254,7 @@ When the season changes or roster updates are needed:
 **Cause:** Browser may not support modern Clipboard API or permission denied.
 
 **Solution:**
+
 - Use a modern browser (Chrome, Firefox, Safari, Edge)
 - Ensure you've granted clipboard permissions if prompted
 - Try refreshing the page and re-uploading data
@@ -255,6 +264,7 @@ When the season changes or roster updates are needed:
 **Cause:** External CSS files may not be loading in preview.
 
 **Solution:**
+
 - Preview is for content verification only
 - Final styling will apply when published on SwimTopia
 - Trust that the CSS is hosted and will load on production site
@@ -264,6 +274,7 @@ When the season changes or roster updates are needed:
 ### What Gets Saved
 
 The tool saves to browser localStorage:
+
 - **Contacts** - Stored as `gpsa_roster_contacts`
 - **Officials** - Stored as `gpsa_roster_officials`
 - **Roster Data** - NOT saved (must re-upload CSV each time)
@@ -327,6 +338,7 @@ All user input is sanitized using the `escapeHtml()` function to prevent cross-s
 ### Safe HTML Output
 
 The generated HTML is safe to paste into SwimTopia CMS without security concerns:
+
 - No inline JavaScript
 - No event handlers
 - Only semantic HTML structure with CSS classes
@@ -342,6 +354,7 @@ The generated HTML is safe to paste into SwimTopia CMS without security concerns
 ### Browser Compatibility
 
 Works in all modern browsers:
+
 - Chrome 90+
 - Firefox 88+
 - Safari 14+
@@ -381,6 +394,7 @@ For issues or questions:
 ---
 
 **Quick Links:**
+
 - [Access the Tool](/tools/roster.html)
 - [All GPSA Tools](/tools/)
 - [Team Rep Duties](/team-rep-duties)

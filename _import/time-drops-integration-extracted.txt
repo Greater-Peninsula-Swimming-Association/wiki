@@ -1,0 +1,333 @@
+***» ******Note: **The timing configuration is per computer, not per session/team/meet. If you have a laptop set up to use a timing system it will use that timing system for any session, so it's possible to configure two different computers to input times differently. *
+
+## **Covered in this Article: **
+
+### **➧ ****Hardware and Software Requirements **
+
+- Time Drops 
+- Meet Maestro 
+
+### **➧ ****Time Drops Setup (skip if completed) **
+
+- Router Setup 
+- Tablet 
+- Time Drops Console App 
+- Swim Timing (STC-1) Controller 
+- Time Drops Lane Timer Buttons 
+- Starter (Optional) 
+
+### **➧ ****Meet Maestro Setup **
+
+- Video: Meet Maestro and Time Drops - Setup and Run (5.17min) 
+- Step 1: Download the Meet Maestro Windows Desktop App 
+- Step 2: Log in to Meet Maestro and select Time Drops 
+- Step 3: Choose the Data Directory to save Time Drops meet data 
+- Step 4: Install or Open Time Drops MM-Link 
+- Step 5: Check Configuration in Meet Maestro 
+
+### **➧ ****Meet Maestro Watch and Mobile App Settings **
+
+- Expected Watches Per Lane 
+- SwimTopia Mobile App Settings - Enable Live Event/Heat Bar 
+
+### **➧ ****Editing Settings and Testing **
+
+- Editing Time Drops Settings 
+- Testing Before the Meet Starts 
+
+### **➧ ****Product Support **
+
+- Time Drops Support 
+- SwimTopia Support 
+- Meet Maestro Help Resources 
+- Additional Resources 
+
+# **Hardware and Software Requirements **
+
+## **Time Drops Requirements The Time Drops system cannot function without Wi-Fi. **Time Drops does not include a Wi-Fi router with the system, as each team’s situation and requirements are different. Due to security restrictions, any type of ‘public’ Wi-Fi will most likely **not work **for Time Drops. 
+
+Their Quick Start Guide provides additional information on this topic, which we highly suggest you review - **Time Drops Quick Start Guide The following hardware is also required: **
+
+- A Router 
+- Android tablet 
+- Windows computer 
+- Start adapter (or start button) * 
+- Timing controller (called the STC-1) * 
+- Time Drops lane timer buttons (up to 3 per lane) * 
+- Time Drops Console App (free in Google Play store) 
+- Time Drops MM-Link software (free in Windows store ) 
+- The desktop version of Meet Maestro (free with SwimTopia subscription) 
+
+(* included with the Time Drops system purchase) 
+
+When a race is started, the **start adapter **sends a signal to the **timing controller **which starts the timer of the event/heat on the **Android tablet **. When a swimmer touches the wall and a **lane timer button **is pressed, it sends a signal to the timing controller, which then sends the information to the tablet that the lane has finished and captures the swim time for that lane. Once all lanes are finished, the tablet stores this information. The computer operator can then pull the times into **Meet Maestro **. 
+
+## **Meet Maestro Requirements **
+
+- **Microsoft Windows computer **with **Meet Maestro desktop application **installed (more details below). If you have a Mac with software that runs Windows, our Windows app can run on a Mac. 
+- **64-bit version of Windows 7 or newer **is required to run the desktop application Installer. 
+- We suggest **at least 4 GB RAM **to ensure long reports are displayed efficiently. Chromebooks usually only have 2 GB RAM, and cannot be used with CTS Dolphin. If you need to use a Chromebook, make sure to increase the RAM. 
+- **Internet connection **is needed to open Meet Maestro and download the meet data to the local computer. The amount of data transferred is small, so teams have had success using a mobile hotspot tethered to the laptop running Meet Maestro when there are connection issues. ***(Time Drops DOES NOT work on 5 MHz wireless hotspot.) ***
+
+For additional technical information on our Performance Tuning, Concurrent Data Entry, Access to Reports and other Meet Maestro Settings, and Printing Tips **➞ **See **Meet Maestro - Technical Info: System, Internet, Concurrent Entry, Offline Support, Meet Access... **
+
+# **Time Drops Setup (skip if completed) Time Drops setup must be done in a specific order to work. **If you have any questions on the steps below, reference the ******Time Drops Quick Start Guide ******or **contact Time Drops **for assistance. 
+
+## **Router Setup **
+
+### **➧ ****Step 1: **
+
+The first thing you need to do is get the router up and running to create the 2.4 GHz WiFi network that will run the system. The Tablet and STC-1 controller must be on the same WiFi network to talk to each other. 
+
+For example, one customer uses the **GL.iNet SFT-1200 travel router **and powers it with the **Anker Power Bank (20,000mAh) Portable Charger **and **50 feet of a USB-C cable **to connect a phone hotspot. This allows them to keep a phone at the data table and also place the router in a position with a clear view of the pool, tablet, and STC-1 controller. 
+
+### **➧ ****Step 2: **
+
+Once the router is plugged in, find the router in your computer’s list of WiFi networks. 
+
+### **➧ ****Step 3: **
+
+Now you can open an internet browser to set up the router. The first time you set up the router, it will ask you your preferred language and have you set an admin password. After that, you will log in with your admin password. 
+
+This admin panel allows you to choose how you will get internet to the router. In this example, we will be using a phone hotspot tethered to the router. Click on the Tethering option. 
+
+### **➧ ****Step 4: **
+
+Connect the phone you are using as a hotspot to the USB plug on the back of the router. Once the router connects, you will see a green dot next to “Tethering” and an IP address will appear. 
+
+## **Tablet Time Drops requires an Android tablet. **Log into the tablet with the team’s Time Drops Google Account, and make sure it's fully charged before each meet. It is also recommended to disable the tablet lock screen to make it easy to quickly open the tablet throughout the meet. 
+
+Open the Settings on the Android Tablet. Choose **Network & Internet **and connect to the SAME WiFi network as created with the router. 
+
+## 
+
+## **Time Drops Console App **
+
+The **Time Drops Console App **should already be installed on the tablet. 
+
+Below is what you should see when you open the Time Drops App: 
+
+## 
+
+## **Swim Timing (STC-1) Controller **
+
+Now we need to connect the STC-1 controller to the WiFi network. The STC-1 controller has a USB rechargeable battery so be sure it's fully charged before every meet (it should last up to 10 hours fully charged). 
+
+Turn on the STC-1 controller by pressing on holding the power button. When turned on but not connected, the red WiFi light will blink slowly. 
+
+If you are using the SAME network that has already been set up, the STC-1 controller may automatically connect; if not, follow these steps: 
+
+Click the 3 vertical dots in the upper right of the Time Drops app to open the settings menu. 
+
+Choose **Connect controller. **
+
+You will see a red sad face when not connected to WiFi or a WiFi network other than the one set up with the router. 
+
+Click the **Choose **button to select the correct Wifi network. Once you have selected the right WiFi network, click **Copy to Controller **: 
+
+You should see a transmitting bar. Once the controller is correctly connected, a green happy face will display. 
+
+The red light on the STC-1 WiFi indicator should now be blinking rapidly. (See the **Time Drops Troubleshooting **guide if you are having trouble connecting the controller) 
+
+## 
+
+## **Time Drops Lane Timer Buttons **
+
+Next, you will need to configure the buttons and the start adapter. Time Drops comes with up to 3 buttons per lane. Each button hangs on a lanyard which is marked with a lane and button letter. 
+
+For example, Lane 1A, Lane 1B, and Lane 1C. The first time the system was set up, all of the buttons should have been assigned to the correct lanes. After that, you will just need to assign buttons if one runs out of batteries or stops working and you use the provided spare. 
+
+**If you need to assign buttons, here's how: **
+
+Click the three vertical dots at the top right of the Time Drops tablet and choose **Buttons **. 
+
+In this example, lane one is not assigned buttons. 
+
+To assign a button, press and hold the Time Drops button until you see it appear on the tablet screen under unassigned buttons. Then drag it to the correct lane and letter: 
+
+As you drop it, you will see a green box. The grey square means you have added these buttons but have not Saved your changes. **Be sure to SAVE. **
+
+The grey buttons tell us they are off, while white buttons mean they are on. To turn a button on, simply press the blue button. It will make a beep, and you should see a faint blinking red light. When you turn the button on, it should now show as white on the tablet. 
+
+You will also see a blue blinking light on the STC-1 controller telling you that the buttons are connected: 
+
+## 
+
+## **Starter (Optional) **
+
+As an example, if your team has a starter adapter that plugs into the CTS Infinity system to start the system. This is added to the Add Button page on the tablet in the same way that you added the lane timer buttons. 
+
+The starter adapter comes with the control box and the connecting cable. 
+
+There are two metal wires sticking ever so slightly out of the cable. These two metal pieces are how you will turn the adapter on. 
+
+Use a metal object to close the circuit between the two wire plugs. Keep a tiny screwdriver in your Time Drops case for this purpose. When the starter turns on, you will see a blinking red light. 
+
+The cable plugs into the CTS Infinity starter in the **Starter Output **socket. When the starter presses the start button, the Time Drops system will automatically start. 
+
+The buttons have a range of about 1,000 ft in open terrain. The range can be reduced by obstacles such as walls or crowds of people. It’s recommended to place the timing controller at the long edge of the pool in an elevated position, from where it has a direct line-of-sight to the start and finish areas. The timers should not completely enclose the buttons with their hands as this may reduce the signal strength. 
+
+For example, hang the STC-1 controller from the shallow end backstroke flags in the provided waterproof plastic pouch with a plastic carabiner. This provides a good line of sight to all parts of the equipment. 
+
+You have now completed the hardware setup for the Time Drops System. **We HIGHLY encourage you to complete the setup process a few times before the start of the season. **
+
+Additionally, it is a good idea to make sure that you set it up in the actual location where you will be using it to be sure you have the right length cables, plugs, and a strong enough WiFi signal. 
+
+# **Meet Maestro Setup **
+
+## **Video: Meet Maestro and Time Drops - Setup and Run (5.17min): **
+
+## **Step 1: Download the Meet Maestro Windows Desktop App Once you have purchased and configured the ****Time Drops Timing System ****, Meet Maestro can integrate with this system via a ****downloadable Microsoft Windows Meet Maestro desktop application ****. **( *If you have a Mac with software that runs Windows, our Windows app can be run on a Mac.) *
+
+The installation may take several minutes. If you have previously installed Meet Maestro Desktop, close any currently running version before installing a new version. 
+
+Once installed, you’ll run the meet from the Meet Maestro Windows Desktop application, not your web browser. 
+
+***» Tip: ****When an update for the Meet Maestro Desktop application is available, it will be downloaded automatically, and an "Install Update" button will appear in the top bar to prompt installation. The application will relaunch when finished. ➞ See ****Meet Maestro Version History ****for details on updates. *
+
+## **Step 2: Log in to Meet Maestro and select Time Drops **
+
+### **➧ ****Log In **
+
+After the desktop application is installed, log in with your SwimTopia credentials (you need to be a Site Admin for your team, or be assigned to a Role with permission to manage swim meets). 
+
+****
+
+### **➧ ****Select a Meet **
+
+You will only see meets that have been merged in this interface. (if you use the same credentials to manage multiple teams, you will be prompted to select the team first) 
+
+### **➧ ****Add Timing System Configuration in Settings Timing Setup **options are found under Meet Maestro Settings (gear icon). Click the **Add Timing System Configuration **b 
+
+### **➧ ****Web Version Notice Our desktop application is required to use a timing system with Meet Maestro. **If you are on the web version, you will see a message and a link to instructions, as seen below. 
+
+### **➧ ****Multi-Session / Virtual Meets **
+
+If this is a multi-session meet (virtual or otherwise) you will be prompted to select your session. If not, this step is not displayed. 
+
+****
+
+### **➧ ****Select Time Drops **
+
+## **Step 3: Choose the Data Directory to save Time Drops meet data **
+
+Next, you will want to choose the location where you want TimeDrops to save the meet data. Once you create this folder and link it in Meet Maestro, when you open Time Drops, you will then select the same data directory. 
+
+***» Tip: ****It’s easiest to create a folder for each season and then a subfolder for each meet. For example: *
+
+Create a new folder for this meet and select this folder in Meet Maestro as the Data Directory: 
+
+## **Step 4: Install or Open Time Drops MM-Link **
+
+Open MM-Link if you have it installed, or download the MM-Link app from the Microsoft Store: **Microsoft Apps - Time Drops MM-Link **. (Make sure to enable access through the Windows firewall for both ‘private’ and ‘public’ networks when prompted) 
+
+If the STC-1 and tablet are properly connected, you should see a green bar. Click the **Browse **button to select the path for file exchange. This should be the SAME folder you just selected in Meet Maestro. 
+
+## **Step 5: Check Configuration in Meet Maestro **
+
+Once you have selected the data file location in MM-Link return to Meet Maestro. If it has not automatically, connected, click on **Check Configuration. **
+
+If you see an error on the screen, that should tell you that the file directories between Meet Maestro and Time Drops do not match. Reselect the directory and then recheck the configuration. 
+
+If the directories do match, you will see **Connected **in the top right, and a green box with a checkmark, showing the correct meet has been found. 
+
+The tablet will now display Event/Heat/Lane assignments: 
+
+### 
+
+# **Meet Maestro Watch and Mobile App Settings **
+
+## **Expected Watches Per Lane **
+
+Time Drops will communicate the expected watches per lane to Meet Maestro. You should not need to update this setting unless it's incorrect in Time Drops. Available options are 1, 2, and 3. 
+
+## **SwimTopia Mobile App Settings - Enable Live Event/Heat Bar **
+
+Slide the bar to the right to enable the live event/heat bar feature in the SwimTopia mobile app. 
+
+Time Drops will automatically send information about the current event and heat being swum to the **SwimTopia Mobile Live Event/Heat Bar **. 
+
+It's best to do this when setting up the timing system, but you can access this setting any time through the Time Drops timing system bar on the results data entry screen (details below). 
+
+# **Editing Settings and Testing **
+
+## **Editing Time Drops Settings **
+
+All of the settings configured during setup can be changed from the Timing Setup screen by clicking on the **Update Meet Details **button: 
+
+A shortcut is provided when you are on the results entry interface: 
+
+**Timing Saving Feature: **If you just need to update the meet details in Time Drops, you can click the **Update Meet Details **button on the timing system bar without having to open the settings window. 
+
+## **Testing Before the Meet Starts You are now ready! Practice setting up and using your system several times before your first meet ➞ See ****Time Drops - Running Your Meet & Troubleshooting **
+
+To support running tests before the start of the meet, but prevent premature delivery of upcoming swim reminders and live result notifications to Pro users of the SwimTopia mobile app, an early start warning popup will display to confirm whether or not you intend to start the meet early. 
+
+#### **➧ ****This warning will only display if two conditions are met: **
+
+- The **"Enable the Live Event/Heat bar" **setting is checked (see above) 
+- The meet or session start time is in the future (not earlier than or equal to the current time) 
+
+***» ******Note: **This warning will display for each test performed until the confirmation to start the meet is selected (or start the session in a multi-session meet scenario). When "Yes..." is selected, the estimated start times will be adjusted, and the notification process will begin. **There is no option to revert back to a pre-notification state **. *
+
+# **PRODUCT SUPPORT "Customer Happiness" is not just a team name at SwimTopia, it's our mission! **
+
+## **➧ ****Time Drops Support **
+
+If you have questions specific to your Time Drops timing system or setup, please reference their support resources below. Meet Maestro seamlessly integrates with Time Drops to pull in times, but they are the experts at helping you configure your timing system. 
+
+- 
+
+- **Time Drops Website: **https://time-drops.com/ 
+- **User Manual: **https://time-drops.com/user-manual.pdf 
+- **Quickstart Guide: **https://time-drops.com/quickstart.pdf 
+- **Meet Checklist: **https://time-drops.com/checklist.pdf 
+- **Time Drops Overview Video: **https://youtu.be/O_VuwbtgSNA 
+- **YouTube Channel: **https://www.youtube.com/@TimeDropsTiming 
+
+## **➧ ****SwimTopia Support **
+
+f you run into issues during setup or while testing that seem related to the connection between the timing system and Meet Maestro (or you're not sure), we have multiple options to assist: 
+
+- **Time Drops - Running Your Meet & Troubleshooting **(Start Here) 
+- **Submit a Support Ticket **(Or click "Submit a request" at the top of any Help Center page) 
+- **Business Hours Phone Support (M-F 9am-6pm CST): **877-856-2940 (Option 2) 
+- **After Hours (Emergency Meet Day) Phone Support: **877-856-2940 (Option 6) 
+
+## **➧ ****Meet Maestro Help Resources We're here to help! **If you need assistance before or during your meet, we want you to be able to reach us as quickly as possible. 
+
+Click on the ****located at the top right, and you can self-serve through our extensive topic-organized online **Help Center **, **submit a support request **, or contact us via phone. 
+
+YWe also provide a **remote troubleshooting option **to create a read-only replay of the steps you are taking when an issue occurs. Before reaching out to us, slide the bar to **Enable Remote Support **, and retrace your steps to recreate the issue. Include the "Session Id" in your ticket or call. 
+
+## **➧ ****Additional Resources **
+
+In addition to this checklist **, **we have training options covering all of the functionality Meet Maestro has to offer to make your meet day a splashing success! 
+
+- **Help Center ➞ **See the **Meet Maestro section **
+- **▶️ Training Videos - Meet Management with Meet Maestro **
+- **Additional Training Videos **➞ Check out our **YouTube Channe **l 
+- **Workshop Webinars **➞ Sign up for live **Workshop Webinars **(when available) 
+- **Community Center **➞ Check out our **Community section **for many tips and tricks 
+- **SwimTopia Reddit ➞ **connect, and share tips on our **Admin's Hub ➧ League Admin **➞ See the **League Management **section for league-specific guides 
+
+**➧ Team Admin ➞ **See our **Meet Maestro - Essential Settings Guide for a Successful Meet ******(after meet entries are merged) 
+
+## 
+
+#### ➞ **Next Topic: **After completing these steps ➞ See ******Time Drops - Running Your Meet & Troubleshooting **
+
+## Recently viewed articles 
+
+- Time Drops - Running Your Meet & Troubleshooting 
+- Favorite Icon for your SwimTopia Site (Favicon) 
+
+## Related articles 
+
+- Time Drops - Running Your Meet & Troubleshooting 
+- Meet Maestro - Windows Desktop Application Installer (Timing System Support) 
+- Meet Maestro Settings – Timing Setup & Scoreboards 
+- Enabling the SwimTopia Live Event/Heat Bar 
+- Meet Maestro Version History 
+
+Article is closed for comments.

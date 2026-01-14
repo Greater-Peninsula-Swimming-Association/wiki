@@ -42,7 +42,7 @@ Before using the formatter tool, you need to export your current roster data fro
 The exported CSV must contain these columns (automatically included in SwimTopia exports):
 
 | Column Name | Description | Example |
-|-------------|-------------|---------|
+| ------------- | ------------- | --------- |
 | `AgeGroup` | Age group (may include gender prefix) | `9-10`, `Boys 11-12` |
 | `AthleteCompetitionCategory` | Gender code | `M` or `F` |
 | `AthleteDisplayName` | Swimmer's full name | `Smith, John` |
@@ -106,6 +106,7 @@ Now you're ready to use the [GPSA Roster Formatter](/tools/roster.html) to proce
 5. Enter name, phone (optional), and email
 
 **Important:** The tool validates email addresses in real-time:
+
 - **Red border** = Invalid email format (must fix before export)
 - **Green border** = Valid email format
 
@@ -147,6 +148,7 @@ The tool provides three separate exports:
 3. **Export Officials HTML** - Click to copy the officials list HTML
 
 Each export:
+
 - Copies HTML to your clipboard
 - Shows a green success notification
 - Produces clean HTML ready for publishing
@@ -182,6 +184,7 @@ You can publish all three sections on a single page, or your team may have separ
 ### When to Update
 
 Submit roster updates when:
+
 - New swimmers join your team
 - Swimmers leave your team
 - Contact information changes
@@ -210,6 +213,7 @@ Submit roster updates when:
 **Cause:** SwimTopia age group assignments may not match GPSA age groups.
 
 **Solution:**
+
 - Verify swimmer birthdates in SwimTopia
 - Check the age-up date setting for your team
 - The tool strips gender prefixes automatically (e.g., "Boys 9-10" becomes "9-10")
@@ -219,6 +223,7 @@ Submit roster updates when:
 **Cause:** Browser localStorage was cleared, or you're using a different browser/device.
 
 **Solution:**
+
 - Re-enter the information (it will auto-save)
 - Use the same browser and device consistently
 - Consider keeping a backup document with contact information
@@ -228,6 +233,7 @@ Submit roster updates when:
 **Cause:** The email format is invalid.
 
 **Solution:**
+
 - Verify the email includes `@` and a domain (e.g., `name@example.com`)
 - Check for extra spaces or typos
 - The border turns green when the format is valid
@@ -237,6 +243,7 @@ Submit roster updates when:
 **Cause:** Browser clipboard permissions or compatibility issue.
 
 **Solution:**
+
 - Use a modern browser (Chrome, Firefox, Safari, Edge)
 - Allow clipboard permissions if prompted
 - Refresh the page and try again

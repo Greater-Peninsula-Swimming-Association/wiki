@@ -11,6 +11,7 @@ The Greater Peninsula Swimming Association (GPSA) is a summer recreational swim 
 ## Mission Statement
 
 Our mission is to:
+
 - Provide a safe, fun, and competitive swimming environment
 - Develop swimming skills and sportsmanship in young athletes
 - Foster community connections through team spirit
@@ -42,7 +43,7 @@ The GPSA season runs from mid-June through mid-July, featuring:
 GPSA offers age groups for swimmers ages 5-18:
 
 | Age Group | Description |
-|-----------|-------------|
+| ----------- | ------------- |
 | 8 & Under | Swimmers 8 years old and younger |
 | 9-10 | Swimmers ages 9-10 |
 | 11-12 | Swimmers ages 11-12 |
@@ -88,6 +89,7 @@ For general league inquiries, please contact:
 ---
 
 **Next Steps:**
+
 - Learn [How to Join](/how-to-join) GPSA
 - Review the [Season Overview](/season-overview)
 - Read the [League Rules](/league-rules)
