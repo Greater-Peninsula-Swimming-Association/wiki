@@ -1,4 +1,4 @@
-name: Deploy Jekyll site to Pages
+name: Deploy Quarto site to Pages
 
 on:
   # Runs on pushes targeting the default branch
@@ -28,23 +28,28 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
+      - name: Setup Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
         with:
-          ruby-version: '3.1'
-          bundler-cache: true
+          tinytex: true
 
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
 
-      - name: Build with Jekyll
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
-        env:
-          JEKYLL_ENV: production
+      - name: Render Quarto site
+        uses: quarto-dev/quarto-actions/render@v2
+
+      - name: Render ePub
+        run: quarto render --profile epub --to epub
+
+      - name: Copy ePub to site
+        run: cp _epub/GPSA-Wiki.epub _site/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
 
   # Deployment job
   deploy:

@@ -1,7 +1,5 @@
 ---
-layout: wiki
 title: Scorekeeper Guide
-category: Meet Management
 toc: true
 last_updated: November 2025
 ---
@@ -159,7 +157,7 @@ For manual timing (stopwatches):
 
 #### Time Drops Electronic Timing
 
-If the meet uses [Time Drops wireless timing system](/time-drops):
+If the meet uses [Time Drops wireless timing system](time-drops-about.md):
 
 1. Wait for Time Drops operator to confirm race is saved
 2. Click **"Load Times"** button in Meet Maestro
@@ -167,7 +165,7 @@ If the meet uses [Time Drops wireless timing system](/time-drops):
 4. Times automatically populate for all swimmers in the heat
 5. Verify times appear correctly
 
-See the [Time Drops wiki page](/time-drops) for detailed information about the timing system integration.
+See the [Time Drops wiki page](time-drops-about.md) for detailed information about the timing system integration.
 
 #### Marking No-Shows and Scratches
 
@@ -454,7 +452,7 @@ The GPSA rep (or designated person) will export results after validation:
 3. Save as `YYYY-MM-DD_TEAM1_v_TEAM2.html`
 4. Submit to GPSA webmaster for season archive
 
-See [Publicity Processor wiki page](/publicity-processor) for detailed export instructions.
+See [Publicity Processor wiki page](publicity-processor.md) for detailed export instructions.
 
 ## Troubleshooting
 

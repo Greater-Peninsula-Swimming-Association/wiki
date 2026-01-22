@@ -1,7 +1,5 @@
 ---
-layout: wiki
 title: Meet Schedule Generator
-category: Tools
 toc: true
 last_updated: November 2025
 ---
@@ -267,8 +265,8 @@ The tool works in all modern browsers:
 
 ## Related Tools
 
-- [Roster Formatter](/roster-formatter) - Format team rosters for SwimTopia
-- [Publicity Processor](/publicity-processor) - Generate meet result reports
+- [Roster Formatter](roster-formatter.md) - Format team rosters for SwimTopia
+- [Publicity Processor](publicity-processor.md) - Generate meet result reports
 
 ## Support
 

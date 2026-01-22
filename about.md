@@ -1,7 +1,5 @@
 ---
-layout: wiki
 title: About GPSA
-category: Getting Started
 toc: true
 last_updated: November 2025
 ---

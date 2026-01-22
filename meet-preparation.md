@@ -1,7 +1,5 @@
 ---
-layout: wiki
 title: Meet Preparation Guide
-category: Meet Management
 toc: true
 last_updated: January 2025
 ---
@@ -288,9 +286,9 @@ Before the meet begins, verify these settings:
 
 ## Additional Resources
 
-- [SwimTopia Guidelines](/swimtopia-guidelines) - Complete SwimTopia documentation
-- [Scorekeeper Guide](/scorekeeper) - Detailed Meet Maestro scoring instructions
-- [Time Drops Guide](/time-drops) - Semi-automatic timing system
+- [SwimTopia Guidelines](swimtopia-guidelines.md) - Complete SwimTopia documentation
+- [Scorekeeper Guide](scorekeeper.md) - Detailed Meet Maestro scoring instructions
+- [Time Drops Guide](time-drops-about.md) - Semi-automatic timing system
 - [GPSA Rulebook - Conduct of Meets](/rulebook/conduct-of-meets) - Official meet rules
 
 ## Time-Saving Tips

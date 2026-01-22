@@ -1,7 +1,5 @@
 ---
-layout: wiki
 title: Roster Submittal Process
-category: Team Administration
 toc: true
 last_updated: January 2026
 ---
@@ -300,8 +298,8 @@ The formatter tool automatically saves your contacts and officials to your brows
 ### Related Resources
 
 - [Roster Formatter Tool](/tools/roster.html) - The formatting tool
-- [Roster Formatter Documentation](/roster-formatter) - Detailed tool documentation
-- [SwimTopia Guidelines](/swimtopia-guidelines) - Complete SwimTopia guide
+- [Roster Formatter Documentation](roster-formatter.md) - Detailed tool documentation
+- [SwimTopia Guidelines](swimtopia-guidelines.md) - Complete SwimTopia guide
 
 ---
 

@@ -1,7 +1,5 @@
 ---
-layout: wiki
 title: Time Drops & SwimTopia Integration Setup
-category: Meet Management
 toc: true
 last_updated: January 2026
 ---
@@ -19,7 +17,7 @@ Before starting this integration, you should have:
 - Meet entries already merged in SwimTopia
 - Basic familiarity with Time Drops hardware setup
 
-See [Time Drops Timing System](/time-drops) for general system information.
+See [Time Drops Timing System](time-drops-about.md) for general system information.
 
 ## Hardware and Software Requirements
 
@@ -339,10 +337,10 @@ Click the **?** icon (top right) in Meet Maestro to access:
 
 ## Related Guides
 
-- [Time Drops Timing System](/time-drops) - General system overview
+- [Time Drops Timing System](time-drops-about.md) - General system overview
 - [Meet Maestro Guide](/meet-maestro) - Complete Meet Maestro documentation
-- [Scorekeeper Guide](/scorekeeper) - Running meets with Meet Maestro
-- [Meet Preparation](/meet-preparation) - Pre-meet checklist for GPSA reps
+- [Scorekeeper Guide](scorekeeper.md) - Running meets with Meet Maestro
+- [Meet Preparation](meet-preparation.md) - Pre-meet checklist for GPSA reps
 
 ---
 

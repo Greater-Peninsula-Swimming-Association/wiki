@@ -1,0 +1,253 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - CNAME
+    - .nojekyll
+  render:
+    - "*.md"
+    - "!CLAUDE.md"
+    - "!README.md"
+    - "!DEPLOYMENT.md"
+    - "!GEMINI.md"
+
+website:
+  title: "GPSA Wiki"
+  site-url: https://wiki.gpsaswimming.org
+  favicon: "assets/gpsa_logo.png"
+
+  page-navigation: true
+  reader-mode: false
+
+  # Sidebar navigation
+  sidebar:
+    title: "GPSA Wiki"
+    logo: assets/gpsa_logo.png
+    logo-href: https://gpsaswimming.org
+    search: true
+    style: docked
+
+    contents:
+      - text: "Home"
+        href: index.md
+
+      - section: "About GPSA"
+        contents:
+          - about.md
+          - faq.md
+
+      - section: "Web Tools"
+        contents:
+          - meet-schedule-generator.md
+          - roster-formatter.md
+          - publicity-processor.md
+
+      - section: "Meet Management"
+        contents:
+          - meet-preparation.md
+          - scorekeeper.md
+          - time-drops-about.md
+          - time-drops-swimtopia-integration.md
+
+      - section: "Team Administration"
+        contents:
+          - roster-submittal.md
+          - swimtopia-guidelines.md
+
+    tools:
+      - icon: house
+        href: https://gpsaswimming.org
+        text: "GPSA Home"
+      - icon: book
+        href: GPSA-Wiki.epub
+        text: "Download ePub"
+
+
+# Format configurations
+format:
+  # HTML output (website)
+  html:
+    theme: [cosmo, _custom.scss]
+    toc: true
+    toc-depth: 3
+    link-external-newwindow: true
+    code-link: true
+    # Enable per-page PDF download link
+    format-links: [pdf]
+    # Grid layout for centered content
+    grid:
+      sidebar-width: 250px
+      body-width: 900px
+      margin-width: 250px
+      gutter-width: 1.5rem
+    # Show last modified date from git
+    date-modified: last-modified
+
+  # PDF output (per-page)
+  pdf:
+    documentclass: article
+    toc: true
+    toc-depth: 3
+    number-sections: false
+    geometry:
+      - margin=1in
+      - top=1.25in
+      - bottom=1.25in
+    colorlinks: true
+    linkcolor: NavyBlue
+    urlcolor: NavyBlue
+    toccolor: NavyBlue
+    papersize: letter
+    pdf-engine: xelatex
+    keep-tex: false
+    fig-pos: 'H'
+
+    # Custom header for GPSA branding
+    include-in-header:
+      text: |
+        \usepackage{graphicx}
+        \usepackage{xcolor}
+        \usepackage{pagecolor}
+        \usepackage{titlesec}
+        \usepackage{fancyhdr}
+        % GPSA Brand Colors
+        \definecolor{GPSANavy}{HTML}{002366}
+        \definecolor{GPSARed}{HTML}{d9242b}
+
+        % ============================================================================
+        % Custom Title Page
+        % ============================================================================
+        \makeatletter
+        \renewcommand{\maketitle}{
+          \begin{titlepage}
+            \pagecolor{white}
+            \newgeometry{margin=1in}
+
+            % Center everything vertically and horizontally
+            \centering
+            \vspace*{1.5cm}
+
+            % GPSA Logo
+            \includegraphics[width=2.5in]{assets/gpsa_logo.png}
+
+            \vspace{1.5cm}
+
+            % Title
+            {\Huge\bfseries\color{GPSANavy}\@title\par}
+
+            \vspace{0.75cm}
+
+            % Subtitle - GPSA Wiki
+            {\Large\color{GPSANavy}GPSA Wiki Documentation\par}
+
+            \vspace{2cm}
+
+            % Decorative line
+            {\color{GPSARed}\rule{4in}{2pt}\par}
+
+            \vspace{2cm}
+
+            % Date
+            {\large\@date\par}
+
+            \vfill
+
+            % Footer text
+            {\footnotesize\color{gray}
+            Greater Peninsula Swimming Association\\
+            \vspace{0.3cm}
+            wiki.gpsaswimming.org
+            \par}
+
+            \restoregeometry
+          \end{titlepage}
+          \pagecolor{white}
+          \clearpage
+        }
+        \makeatother
+
+        % ============================================================================
+        % Page break after TOC
+        % ============================================================================
+        \AtBeginDocument{
+          \let\oldtableofcontents\tableofcontents
+          \renewcommand{\tableofcontents}{\oldtableofcontents\clearpage}
+        }
+
+        % ============================================================================
+        % Section Styling with Page Breaks
+        % ============================================================================
+
+        % Make sections start on new pages (like chapters)
+        \titleclass{\section}{top}
+
+        % H1 (section) - page break before, navy with red underline
+        \titleformat{\section}[block]
+          {\normalfont\LARGE\bfseries\color{GPSANavy}}
+          {\thesection}{0.5em}{}
+          [\vspace{2pt}{\color{GPSARed}\titlerule[2pt]}]
+        \titlespacing*{\section}{0pt}{0pt}{15pt}
+
+        % H2 (subsection) - navy color
+        \titleformat{\subsection}
+          {\normalfont\Large\bfseries\color{GPSANavy}}
+          {\thesubsection}{1em}{}
+        \titlespacing*{\subsection}{0pt}{20pt}{10pt}
+
+        % H3 (subsubsection) - navy color
+        \titleformat{\subsubsection}
+          {\normalfont\large\bfseries\color{GPSANavy}}
+          {\thesubsubsection}{1em}{}
+        \titlespacing*{\subsubsection}{0pt}{15pt}{8pt}
+
+        % H4 (paragraph) - navy color, run-in style
+        \titleformat{\paragraph}[runin]
+          {\normalfont\normalsize\bfseries\color{GPSANavy}}
+          {\theparagraph}{1em}{}
+        \titlespacing*{\paragraph}{0pt}{10pt}{5pt}
+
+        % H5 (subparagraph) - navy color, run-in style
+        \titleformat{\subparagraph}[runin]
+          {\normalfont\normalsize\bfseries\color{GPSANavy}}
+          {\thesubparagraph}{1em}{}
+        \titlespacing*{\subparagraph}{0pt}{8pt}{5pt}
+
+        % ============================================================================
+        % Headers and Footers
+        % ============================================================================
+        \pagestyle{fancy}
+        \fancyhf{}
+
+        % Headers
+        \fancyhead[L]{\small\color{GPSANavy}\textbf{Greater Peninsula Swimming Association}}
+        \fancyhead[R]{\small\color{GPSANavy}\textbf{GPSA Wiki}}
+
+        % Footers
+        \fancyfoot[C]{\small\thepage}
+        \fancyfoot[R]{\small\color{gray}\today}
+
+        % Header rule in GPSA red
+        \renewcommand{\headrulewidth}{0.4pt}
+        \renewcommand{\headrule}{\hbox to\headwidth{\color{GPSARed}\leaders\hrule height \headrulewidth\hfill}}
+
+        % Footer rule
+        \renewcommand{\footrulewidth}{0pt}
+
+        % Apply fancy style to all pages including after title
+        \makeatletter
+        \let\ps@plain\ps@fancy
+        \makeatother
+
+        % ============================================================================
+        % Table Styling
+        % ============================================================================
+        \usepackage{booktabs}
+        \usepackage{colortbl}
+        \arrayrulecolor{GPSANavy}
+
+# Execution - don't execute code blocks
+execute:
+  enabled: false
+
+# Metadata
+lang: en

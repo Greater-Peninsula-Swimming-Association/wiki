@@ -1,13 +1,11 @@
-# Jekyll build files
+# Quarto build files
 _site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
-
-# Ruby/Bundle
-vendor/
-.bundle/
-Gemfile.lock
+_epub/
+.quarto/
+*.html
+*.pdf
+!_layouts/*.html
+!_includes/*.html
 
 # macOS
 .DS_Store
@@ -25,3 +23,16 @@ Gemfile.lock
 *~
 .tmp/
 temp/
+
+# LaTeX intermediate files
+*.aux
+*.tex
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+/.quarto/
+**/*.quarto_ipynb

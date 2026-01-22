@@ -1,7 +1,5 @@
 ---
-layout: wiki
 title: Time Drops Timing System
-category: Meet Management
 toc: true
 last_updated: November 2025
 ---
@@ -150,7 +148,7 @@ For the best meet experience with Time Drops it is recommended:
 
 2. **Windows Laptop**
    - Install MM-Link from Microsoft Store
-   - Create shared folder (e.g., C:\TimeDrops)
+   - Create shared folder (e.g., `C:\TimeDrops`)
    - Configure same folder in meet management software
    - Ensure laptop connected to same Wi-Fi network
 
@@ -253,7 +251,7 @@ System follows USA Swimming rules:
 6. Save as `YYYY-MM-DD_TEAM1_v_TEAM2.html`
 7. Submit to GPSA webmaster for archiving
 
-See [Publicity Processor wiki page](/publicity-processor) for detailed instructions.
+See [Publicity Processor wiki page](publicity-processor.md) for detailed instructions.
 
 ## Advanced Features
 

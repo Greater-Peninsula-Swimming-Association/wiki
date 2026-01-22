@@ -1,7 +1,5 @@
 ---
-layout: wiki
 title: Frequently Asked Questions
-category: Resources
 toc: true
 last_updated: November 2025
 ---

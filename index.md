@@ -1,5 +1,4 @@
 ---
-layout: wiki
 title: Welcome to the GPSA Wiki
 toc: false
 ---
@@ -14,26 +13,26 @@ The Greater Peninsula Swimming Association is a youth summer swim league serving
 
 ### About GPSA
 
-- [About GPSA](/about) - Learn about our league structure, history, and mission
-- [FAQ](/faq) - Frequently asked questions
+- [About GPSA](about.md) - Learn about our league structure, history, and mission
+- [FAQ](faq.md) - Frequently asked questions
 
 ### Web Tools Documentation
 
-- [Meet Schedule Generator](/meet-schedule-generator) - Format division schedules for publishing
-- [Roster Formatter](/roster-formatter) - Generate formatted team rosters and contact lists
-- [Publicity Processor](/publicity-processor) - Convert SDIF results to HTML meet reports
+- [Meet Schedule Generator](meet-schedule-generator.md) - Format division schedules for publishing
+- [Roster Formatter](roster-formatter.md) - Generate formatted team rosters and contact lists
+- [Publicity Processor](publicity-processor.md) - Convert SDIF results to HTML meet reports
 
 ### Meet Management
 
-- [Meet Preparation Guide](/meet-preparation) - Pre-meet checklist and materials preparation for GPSA Representatives
-- [Scorekeeper Guide](/scorekeeper) - Complete guide to running meet scoring with Meet Maestro
-- [Time Drops Timing System](/time-drops-about) - Digital timing system used by over half of GPSA teams
-- [Time Drops & SwimTopia Setup](/time-drops-swimtopia-integration) - Integrating Time Drops with Meet Maestro
+- [Meet Preparation Guide](meet-preparation.md) - Pre-meet checklist and materials preparation for GPSA Representatives
+- [Scorekeeper Guide](scorekeeper.md) - Complete guide to running meet scoring with Meet Maestro
+- [Time Drops Timing System](time-drops-about.md) - Digital timing system used by over half of GPSA teams
+- [Time Drops & SwimTopia Setup](time-drops-swimtopia-integration.md) - Integrating Time Drops with Meet Maestro
 
 ### Team Administration
 
-- [Roster Submittal Process](/roster-submittal) - End-to-end guide for publishing team rosters using the Roster Formatter
-- [SwimTopia Guidelines](/swimtopia-guidelines) - Comprehensive guide for team administrators on using SwimTopia
+- [Roster Submittal Process](roster-submittal.md) - End-to-end guide for publishing team rosters using the Roster Formatter
+- [SwimTopia Guidelines](swimtopia-guidelines.md) - Comprehensive guide for team administrators on using SwimTopia
 
 ## Additional Resources
 
@@ -42,5 +41,3 @@ The Greater Peninsula Swimming Association is a youth summer swim league serving
 ## Contributing to the Wiki
 
 This wiki is maintained by league volunteers. If you notice outdated information or would like to contribute content, please contact the GPSA webmaster.
-
----

@@ -1,7 +1,5 @@
 ---
-layout: wiki
 title: Publicity Processor
-category: Tools
 toc: true
 last_updated: November 2025
 ---
@@ -495,8 +493,8 @@ Files with override scores work seamlessly:
 
 ## Related Tools
 
-- [Meet Schedule Generator](/meet-schedule-generator) - Format division schedules
-- [Roster Formatter](/roster-formatter) - Format team rosters
+- [Meet Schedule Generator](meet-schedule-generator.md) - Format division schedules
+- [Roster Formatter](roster-formatter.md) - Format team rosters
 - **Archive Builder** (`dev-tools/build_archive.py`) - Generate season archives
 
 ## FAQ

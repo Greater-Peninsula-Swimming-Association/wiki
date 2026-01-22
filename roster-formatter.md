@@ -1,7 +1,5 @@
 ---
-layout: wiki
 title: Roster Formatter
-category: Tools
 toc: true
 last_updated: November 2025
 ---
@@ -379,8 +377,8 @@ Works in all modern browsers:
 
 ## Related Tools
 
-- [Meet Schedule Generator](/meet-schedule-generator) - Format division schedules
-- [Publicity Processor](/publicity-processor) - Generate meet result reports
+- [Meet Schedule Generator](meet-schedule-generator.md) - Format division schedules
+- [Publicity Processor](publicity-processor.md) - Generate meet result reports
 - [SwimTopia Guide](/swimtopia-guide) - Complete SwimTopia documentation
 
 ## Support

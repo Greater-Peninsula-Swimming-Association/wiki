@@ -1,7 +1,5 @@
 ---
-layout: wiki
 title: SwimTopia Guidelines
-category: Administration
 toc: true
 last_updated: November 2025
 ---
@@ -573,8 +571,8 @@ After the meet is complete and all results are entered:
 ## Additional Resources
 
 - [SwimTopia Help Center](https://help.swimtopia.com/)
-- [GPSA Scorekeeper Guide](/scorekeeper) - Detailed Meet Maestro instructions
-- [Time Drops Timing System](/time-drops) - Semi-automatic timing system used by many GPSA teams
+- [GPSA Scorekeeper Guide](scorekeeper.md) - Detailed Meet Maestro instructions
+- [Time Drops Timing System](time-drops-about.md) - Semi-automatic timing system used by many GPSA teams
 - [USA Swimming Rulebook](https://www.usaswimming.org/docs/default-source/rules-regulations/2023-rulebook.pdf)
 
 **Questions?** Contact the GPSA webmaster or your division representative for assistance.

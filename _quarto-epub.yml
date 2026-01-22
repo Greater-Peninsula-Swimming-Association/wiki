@@ -1,0 +1,46 @@
+project:
+  type: book
+  output-dir: _epub
+
+book:
+  title: "GPSA Wiki"
+  subtitle: "Greater Peninsula Swimming Association"
+  author: "GPSA"
+  date: today
+  date-format: "MMMM YYYY"
+
+  # Book structure - all wiki pages as chapters
+  chapters:
+    - index.md
+    - part: "About GPSA"
+      chapters:
+        - about.md
+        - faq.md
+    - part: "Web Tools"
+      chapters:
+        - meet-schedule-generator.md
+        - roster-formatter.md
+        - publicity-processor.md
+    - part: "Meet Management"
+      chapters:
+        - meet-preparation.md
+        - scorekeeper.md
+        - time-drops-about.md
+        - time-drops-swimtopia-integration.md
+    - part: "Team Administration"
+      chapters:
+        - roster-submittal.md
+        - swimtopia-guidelines.md
+
+format:
+  epub:
+    toc: true
+    toc-depth: 3
+    number-sections: false
+    css: _epub-styles.css
+    output-file: GPSA-Wiki.epub
+    cover-image: ePub_Cover.png
+    title-page: false
+
+execute:
+  enabled: false
