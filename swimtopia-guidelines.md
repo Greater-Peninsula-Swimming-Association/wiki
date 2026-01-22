@@ -317,7 +317,7 @@ In Meet Maestro, click on the **Settings Gear** on the top right. Select **Repor
 
 ![Reports Menu](assets/swimtopia/image26.png)
 
-![Heat Sheet Options](assets/swimtopia/image20.png)
+![Heat Sheet Options](assets/swimtopia/image20.png){height=956 width=327}
 
 ### Heat Sheet Options
 

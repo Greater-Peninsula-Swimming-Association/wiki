@@ -163,6 +163,7 @@ It is recommended that teams use a dedicated Wi-Fi appliance for the timing syst
 - **Benefits:** Dedicated network for timing system, no interference from general pool users
 
 **Requirements:**
+
 - **Important:** Controller operates on 2.4 GHz band only
 - **Backup Option:** Mobile phone hotspot or 4G/5G hotspot
 - **Reliability:** Avoid sharing Wi-Fi with general pool users
@@ -197,6 +198,7 @@ It is recommended that teams use a dedicated Wi-Fi appliance for the timing syst
 ### Timer Instructions
 
 **Responsibilities:**
+
 1. Receive assigned lane button(s) on lanyard
 2. Stand at end of pool in assigned lane
 3. Watch swimmer throughout race
@@ -205,6 +207,7 @@ It is recommended that teams use a dedicated Wi-Fi appliance for the timing syst
 6. Report any equipment issues immediately
 
 **Important Notes:**
+
 - Button clicks are timestamped instantly (no transmission delay affects accuracy)
 - Timers do NOT need to watch the tablet - just press when swimmer touches
 - If button drops in pool, retrieve quickly (IP67 rated but minimize water exposure)
@@ -221,6 +224,7 @@ System follows USA Swimming rules:
 ## Integration with SwimTopia Meet Maestro
 
 **Setup:**
+
 1. Go to Settings → Timing Setup
 2. Click "Add Timing System Configuration"
 3. Select "Time Drops"
@@ -228,6 +232,7 @@ System follows USA Swimming rules:
 5. Click "Activate Connection"
 
 **During Meet:**
+
 - Meet Maestro monitors shared folder for result files
 - Click "LOAD TIMES" button to import results for each heat
 - System matches by race number
@@ -255,12 +260,12 @@ See [Publicity Processor wiki page](publicity-processor.md) for detailed instruc
 
 ## Advanced Features
 
-### Time Drops Live!
+### Time Drops Live
 
 Optional feature that publishes meet results to cloud for spectator viewing:
 
 - **Mobile App:** iOS and Android apps available
-- **Web Access:** https://live.time-drops.com
+- **Web Access:** [https://live.time-drops.com](https://live.time-drops.com)
 - **Privacy:** Swimmer names are end-to-end encrypted with 4-digit PIN
 - **Real-Time Updates:** Results pushed to spectators' devices instantly
 - **Configuration:** Enable in Meet Settings on tablet
@@ -299,12 +304,13 @@ With "Collect splits with buttons" enabled:
 **Startup Packages:**
 
 | Package | Cost | Contents |
-|---------|------|----------|
+| --------- | ------ | ---------- |
 | **Basic** | $670 | 6 lanes, 2 buttons/lane, 1 spare |
 | **Standard** | $950 | 6 lanes, 2 buttons/lane, 2 spares |
 | **Pro** | $1,130 | 6 lanes, 3 buttons/lane, 2 spares |
 
 **Annual Subscriptions:**
+
 - Seasonal (≤6 months): $200/year
 - Year-round/Touchpads: $300/year
 - LED Matrix Add-on: $50/year
@@ -312,6 +318,7 @@ With "Collect splits with buttons" enabled:
 All subscriptions include technical support, software updates, and hardware repair coverage.
 
 **Additional Equipment:**
+
 - Extra buttons available for pooled systems
 - Scoreboard adapters sold separately
 - Custom lanyards available
@@ -321,30 +328,35 @@ All subscriptions include technical support, software updates, and hardware repa
 ### Common Issues
 
 **Controller won't connect to tablet:**
+
 - Check controller LED: single flash = not connected, double flash = connected
 - Verify tablet connected to correct Wi-Fi network
 - Go to tablet: Menu → Controller Setup → Query controller status
 - Re-enter Wi-Fi password if needed (case-sensitive!)
 
 **Button not responding:**
+
 - Check battery (CR2032 coin cell)
 - Press and hold button to identify on tablet (turns green)
 - Verify button assigned to correct lane in "Manage Buttons"
 - Replace battery if signal strength indicator low
 
 **Start not registering:**
+
 - Check SA-1 connection to starting system
 - Perform test start to verify adapter powered on
 - Check CR123A battery in adapter
 - Verify adapter assigned to "Starter A" position in Manage Buttons
 
 **Times not importing to meet software:**
+
 - Verify shared folder path matches in MM-Link and meet software
 - Check MM-Link shows "connected" status
 - Ensure laptop on same Wi-Fi network
 - Look for result files in shared folder (e.g., race_001.txt)
 
 **Wi-Fi issues:**
+
 - Ensure router configured for 2.4 GHz (controller doesn't support 5 GHz)
 - Move router closer to timing controller
 - Switch to mobile hotspot backup if available
@@ -353,6 +365,7 @@ All subscriptions include technical support, software updates, and hardware repa
 ### When to Use Manual Backup
 
 Switch to manual timing if:
+
 - Wi-Fi connection lost and cannot be restored quickly
 - Controller malfunctions
 - Multiple buttons fail
@@ -404,7 +417,7 @@ Switch to manual timing if:
 ## Comparison with Other Systems
 
 | Feature | Time Drops | CTS Dolphin | Manual Timing |
-|---------|------------|-------------|---------------|
+| --------- | ------------ | ------------- | --------------- |
 | **Cost** | $670-$1130 startup + $200-300/yr | $8000+ | ~$200 (stopwatches) |
 | **Setup Time** | 15-30 minutes | 30-60 minutes | 5-10 minutes |
 | **Weight/Portability** | Very light (1 oz buttons) | Heavy (plungers, cables) | Very light |
@@ -419,7 +432,7 @@ Switch to manual timing if:
 ## Technical Specifications
 
 | Component | Specification |
-|-----------|--------------|
+| ----------- | -------------- |
 | **Timing Resolution** | 0.00003 seconds (30 microseconds) |
 | **Controller Clock Accuracy** | < 3ppm deviation, < 0.01s/hour |
 | **Button Range** | ~1000 feet line-of-sight |
@@ -437,13 +450,13 @@ Switch to manual timing if:
 - **Official Website:** [time-drops.com](https://time-drops.com)
 - **User Manual:** Available as PDF download from website
 - **Video Tutorials:** YouTube channel with setup and operation guides
-- **Support Email:** support@time-drops.com
+- **Support Email:** [support@time-drops.com](mailto:support@time-drops.com)
 - **Address:** 1839 Ygnacio Valley Rd #165, Walnut Creek, CA 94598
 
 ### App Downloads
 
 - **Android Tablet App:** "Time Drops Wireless Swim Timing Console" on Google Play
-- **MM-Link (Windows):** Microsoft Store ([link](https://www.microsoft.com/store/apps/9MV7DPML9LC2))
+- **MM-Link (Windows):** ([Microsoft Store](https://www.microsoft.com/store/apps/9MV7DPML9LC2))
 - **Time Drops Live! (iOS):** App Store
 - **Time Drops Live! (Android):** Google Play
 - **Web Access:** [live.time-drops.com](https://live.time-drops.com)
@@ -468,6 +481,7 @@ Switch to manual timing if:
 ### Pooling Equipment
 
 Teams can pool buttons from multiple Time Drops systems for larger meets:
+
 - Reconfigure for additional lanes in Settings
 - Assign extra buttons in "Manage Buttons" screen
 - Contact Time Drops for additional numbered lanyards
@@ -508,4 +522,4 @@ No. Timers should focus on watching their assigned swimmer. When the swimmer tou
 
 ---
 
-**Need Help?** Contact your team's Time Drops administrator, other GPSA teams using the system, or email Time Drops support at support@time-drops.com.
+**Need Help?** Contact your team's Time Drops administrator, other GPSA teams using the system, or email Time Drops support at [support@time-drops.com](mailto:support@time-drops.com).

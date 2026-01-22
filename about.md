@@ -22,7 +22,7 @@ Our mission is to:
 GPSA is organized into three divisions based on team size and competitive balance:
 
 - **Red Division** - Typically 6 teams
-- **White Division** - Typically 6 teams
+- **White Division** - Typically 5-6 teams
 - **Blue Division** - Typically 5-6 teams
 
 Divisions may be adjusted annually to maintain competitive balance.
@@ -31,18 +31,19 @@ Divisions may be adjusted annually to maintain competitive balance.
 
 The GPSA season runs from mid-June through mid-July, featuring:
 
-- **Dual Meets** - Weekly head-to-head competitions between two teams
 - **Division Meets** - All teams in a division compete together
+- **Friendship Meets** - Friendly head-to-head competitions between two teams (does not count toward season rankings)
+- **Summer Splash Invitational** - Season-ending summer awards meet
 - **Championship Meet** - Season-ending championship (City Meet)
-- **Invitational Meets** - Optional special events (Mini Meet, Summer Splash)
 
 ## Age Groups
 
-GPSA offers age groups for swimmers ages 5-18:
+GPSA offers age groups for swimmers ages 4-18:
 
 | Age Group | Description |
 | ----------- | ------------- |
-| 8 & Under | Swimmers 8 years old and younger |
+| 6 & Under | Swimmers 6 years old and younger |
+| 7-8 | Swimmers ages 7-8 |
 | 9-10 | Swimmers ages 9-10 |
 | 11-12 | Swimmers ages 11-12 |
 | 13-14 | Swimmers ages 13-14 |
@@ -61,7 +62,7 @@ GPSA currently includes teams from across the Virginia Peninsula, representing:
 
 ### Current Member Teams
 
-See the [Contact Information](https://www.gpsaswimming.org/gpsa-contacts) page for a complete list of current member teams.
+See the [Teams](https://www.gpsaswimming.org/teams) page for a complete list of current member teams.
 
 ## Governance
 
@@ -73,9 +74,7 @@ GPSA is governed by:
 
 ## History
 
-GPSA was founded in the 1960s when several neighborhood pools and country clubs came together to create a competitive summer swim league. Over the decades, the league has grown and evolved while maintaining its core mission of providing quality youth swimming experiences.
-
-For more detailed historical information, see the [League History](/history) page.
+GPSA was founded in 1963 when several neighborhood pools and country clubs came together to create a competitive summer swim league. Over the decades, the league has grown and evolved while maintaining its core mission of providing quality youth swimming experiences.
 
 ## Contact
 
@@ -88,6 +87,4 @@ For general league inquiries, please contact:
 
 **Next Steps:**
 
-- Learn [How to Join](/how-to-join) GPSA
-- Review the [Season Overview](/season-overview)
-- Read the [League Rules](/league-rules)
+- Read the [League Rules](https://rulebook.gpsaswimming.org)
