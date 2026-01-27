@@ -1,7 +1,7 @@
 ---
 title: About GPSA
 toc: true
-last_updated: November 2025
+last_updated: January 2026
 ---
 
 The Greater Peninsula Swimming Association (GPSA) is a summer recreational swim league serving youth swimmers on the Virginia Peninsula. Founded in the 1960s, GPSA has provided generations of swimmers with a fun, competitive environment to develop their skills and build lasting friendships.
@@ -21,20 +21,47 @@ Our mission is to:
 
 GPSA is organized into three divisions based on team size and competitive balance:
 
-- **Red Division** - Typically 6 teams
-- **White Division** - Typically 5-6 teams
-- **Blue Division** - Typically 5-6 teams
+- **Red Division**
+- **White Division**
+- **Blue Division**
 
-Divisions may be adjusted annually to maintain competitive balance.
+For current team assignments, see the [Meet Schedule](https://www.gpsaswimming.org/meet-schedule) on the GPSA website.
+
+#### How Divisions Work
+
+- Teams are assigned to divisions before each season based on competitive balance
+- Division assignments may change year-to-year as team sizes and competitiveness shift
+- Each division has a **Division Coordinator** who helps manage scheduling and communication
+- Teams compete primarily against other teams in their division during dual meets
+
+#### Division Scheduling
+
+- Each team swims **one dual meet per week** during the regular season (typically Monday or Thursday evenings)
+- The schedule rotates so teams face different opponents each week
+- Home and away designations alternate throughout the season
+- Division schedules are published before the season on the [Meet Schedule](https://www.gpsaswimming.org/meet-schedule) page
 
 ### Season Format
 
 The GPSA season runs from mid-June through mid-July, featuring:
 
-- **Division Meets** - All teams in a division compete together
-- **Friendship Meets** - Friendly head-to-head competitions between two teams (does not count toward season rankings)
-- **[Summer Splash Invitational](https://invitationals.gpsaswimming.org)** - Season-ending summer awards meet
-- **[Championship Meet (City Meet)](https://invitationals.gpsaswimming.org)** - Season-ending championship
+#### Dual Meets
+
+Standard head-to-head competitions between two teams from the same division. These count toward division standings and are the primary format for regular season competition.
+
+#### Friendship Meets
+
+Optional meets between teams from **different divisions** or teams wanting additional competition. Friendship meets:
+
+- Do **not** count toward division standings or rankings
+- Follow the same rules and format as dual meets
+- Are scheduled by mutual agreement between participating teams
+- Provide additional competition opportunities without affecting standings
+
+#### Championship Events
+
+- **[Summer Splash Invitational](https://invitationals.gpsaswimming.org)** - Season-ending awards meet celebrating participation
+- **[Championship Meet (City Meet)](https://invitationals.gpsaswimming.org)** - Season-ending championship for qualifying swimmers
 
 ## Age Groups
 

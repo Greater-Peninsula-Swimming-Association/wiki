@@ -163,9 +163,9 @@ Use these **standard team abbreviations** consistently:
 ### Division Structure
 
 GPSA has three divisions:
-- **Red Division** - Typically 6 teams
-- **White Division** - Typically 6 teams
-- **Blue Division** - Typically 5-6 teams
+- **Red Division**
+- **White Division**
+- **Blue Division**
 
 ### Age Groups
 
