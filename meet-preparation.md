@@ -92,6 +92,8 @@ See [SwimTopia Guidelines - Creating Heat Sheets](swimtopia-guidelines.md#creati
 - Swimmer names and teams
 - Blank spaces for place (1st, 2nd, 3rd, 4th)
 
+See [SwimTopia Guidelines - Printing Place Judge Forms](swimtopia-guidelines.md#printing-place-judge-forms) for detailed instructions.
+
 ### 3. Sweep Judge Sheet
 
 **Purpose:** Master tracking sheet for the home sweep judge to record order of finish across all heats.

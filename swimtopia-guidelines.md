@@ -1,7 +1,7 @@
 ---
 title: SwimTopia Guidelines
 toc: true
-last_updated: November 2025
+last_updated: January 2026
 ---
 
 This comprehensive guide provides GPSA team administrators with step-by-step instructions for using SwimTopia to manage rosters, registration, meet setup, and swim meet execution throughout the season.
@@ -12,6 +12,8 @@ This comprehensive guide provides GPSA team administrators with step-by-step ins
 - **Setting up registration:** [Registration](#registration)
 - **Creating meet templates:** [Job Templates](#job-templates)
 - **Entering swimmers in meets:** [Swimmer Entries](#swimmer-entries)
+- **Printing heat sheets:** [Creating Heat Sheets](#creating-heat-sheets)
+- **Printing place judge forms:** [Printing Place Judge Forms](#printing-place-judge-forms)
 - **Running meets:** [Running the Meet](#running-the-meet)
 - **Exporting results:** [Export Meet Results](#export-meet-results-to-teams-repository)
 
@@ -325,6 +327,49 @@ There are many options available when generating Heat Sheets:
 
 - **Team filter** - Create a "sanitized" Heat Sheet to print and share with your team
 - **Benchmarks** - Include City Meet Qualifying Times for each event on the heat sheet
+
+## Printing Place Judge Forms
+
+Place Judge Forms are used by sweep judges to record the official order of finish for each event's scoring heat (Heat 1). The home team prints these before the meet begins.
+
+### Generating Place Judge Forms
+
+1. In Meet Maestro, click the **Settings Gear** (top right)
+2. Select **Reports** from the left side menu
+3. Click **Place Judge Form**
+
+![Place Judge Form Report](assets/swimtopia/image26.png)
+
+### Recommended Settings
+
+Configure the report with these settings:
+
+| Setting | Value | Reason |
+|---------|-------|--------|
+| **Events** | `1-56` | All individual and relay events |
+| **Heats** | `1-1` | Only Heat 1 is scored |
+| **Pages Per Sheet** | 2 | Saves paper while remaining readable |
+
+### Printing
+
+1. Click the **Printer** icon to generate the PDF
+2. Print one form per event (56 total for a standard dual meet)
+3. Organize forms by event number for easy distribution
+
+### Distribution
+
+Give the printed Place Judge Forms to the **head sweep judge** or **meet referee** before the meet begins. Sweep judges will use these to record the order of finish for each Heat 1.
+
+### Troubleshooting
+
+**Forms are blank or missing events:**
+- Verify the meet has been merged
+- Check that entries exist for all events
+- Ensure the heat filter is set to `1-1` (not `1-0` or empty)
+
+**Forms show wrong swimmers:**
+- Verify exhibition swimmers are marked correctly in entries
+- Check that the meet was re-seeded after any entry changes
 
 ## Running the Meet
 
