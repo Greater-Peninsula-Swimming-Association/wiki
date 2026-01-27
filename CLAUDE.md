@@ -20,30 +20,28 @@ All documentation is in **markdown files** (`.md`) in the root directory:
 - **`index.md`** - Homepage/landing page
 - **League Info**: `about.md`, `faq.md`
 - **Tools**: `meet-schedule-generator.md`, `roster-formatter.md`, `publicity-processor.md`
-- **Meet Management**: `meet-preparation.md`, `scorekeeper.md`, `time-drops.md`
-- **Team Admin**: `roster-submittal.md`, `swimtopia-guidelines.md`
+- **Meet Management**: `meet-preparation.md`, `scorekeeper.md`, `publicity-submittal.md`, `time-drops-about.md`, `time-drops-swimtopia-integration.md`
+- **Team Admin**: `gpsa-rep-duties.md`, `roster-submittal.md`, `swimtopia-guidelines.md`
+
+Navigation is defined in `_quarto.yml` under `website.sidebar.contents`.
 
 ### Frontmatter Format
 
-Each markdown file uses **Jekyll frontmatter**:
+Each markdown file uses **Quarto frontmatter**:
 
 ```yaml
 ---
-layout: wiki
 title: Page Title
-category: Getting Started | Tools | Resources
 toc: true | false
 last_updated: Month Year
 ---
 ```
 
 **Required fields:**
-- `layout: wiki` - Always use this layout
 - `title` - Page title (displayed as H1)
 
 **Optional fields:**
-- `category` - Used for navigation grouping
-- `toc` - Enable/disable table of contents
+- `toc` - Enable/disable table of contents (default: true)
 - `last_updated` - Human-readable update timestamp
 
 ## Writing Documentation
@@ -61,10 +59,81 @@ last_updated: Month Year
 Link to other wiki pages using **relative paths**:
 
 ```markdown
-[Roster Formatter](/roster-formatter)
-[Meet Schedule Generator](/meet-schedule-generator)
-[About GPSA](/about)
+[Roster Formatter](roster-formatter.md)
+[Meet Schedule Generator](meet-schedule-generator.md)
+[About GPSA](about.md)
 ```
+
+For section links within a page:
+```markdown
+[Scorekeeper Post-Meet](scorekeeper.md#post-meet-procedures)
+```
+
+## Cross-Referencing Standards
+
+**Philosophy:** The wiki should not duplicate content from the rulebook. Instead, provide practical how-to guidance and link to the rulebook for authoritative rules. Every wiki page should be well-connected to related resources.
+
+### Rulebook Links
+
+The GPSA Rulebook is published at `https://rulebook.gpsaswimming.org/`. Always link to relevant rulebook sections when discussing rules or procedures.
+
+**When to add rulebook links:**
+- Any mention of official rules, requirements, or procedures
+- Deadlines and consequences defined by league rules
+- Role responsibilities (officials, representatives, coaches)
+- Scoring, eligibility, protests, postponements
+
+**Link format:**
+```markdown
+See [GPSA Rulebook - Section Name](https://rulebook.gpsaswimming.org/page.html#section-anchor).
+```
+
+**Available rulebook pages:**
+- `officials.html` - Roles, responsibilities, certification
+- `conduct-of-meets.html` - Meet procedures, scheduling, protests
+- `eligibility-and-rosters.html` - Roster rules, eligibility
+- `scoring.html` - Scoring system
+- `awards.html` - Award procedures
+- `order-of-events.html` - Event order
+- `facilities.html` - Pool requirements
+- `definitions.html` - Term definitions
+
+### Wiki Cross-References
+
+Link to related wiki pages throughout content where contextually relevant.
+
+**When to add wiki links:**
+- First mention of a process that has its own guide
+- References to tools, procedures, or roles with dedicated pages
+- "See also" or "for more details" contexts
+- Tables listing roles or equipment (link role names to their guides)
+
+**Examples of good contextual linking:**
+```markdown
+| [Scorekeeper](scorekeeper.md) | 1 |
+```
+
+```markdown
+After the meet, [submit results](publicity-submittal.md) within 24 hours.
+```
+
+```markdown
+See [Meet Preparation Guide](meet-preparation.md) for detailed instructions.
+```
+
+### Required Links for New Pages
+
+When creating or substantially modifying a wiki page:
+
+1. **Add a "Related Resources" section** at the bottom with links to:
+   - Related wiki pages
+   - Relevant rulebook sections
+
+2. **Link contextually throughout the content** - don't just dump links at the bottom
+
+3. **Update other pages** that should link to the new content
+
+4. **Update navigation** in `_quarto.yml` if adding a new page
 
 ### Team Abbreviations
 
@@ -159,9 +228,16 @@ This format is **critical** for archive builder compatibility.
 ### Adding a New Page
 
 1. Create markdown file in root: `new-page.md`
-2. Add Jekyll frontmatter with `layout: wiki`
+2. Add Quarto frontmatter with `title` and `last_updated`
 3. Write content following style guidelines
-4. Update `index.md` to link to new page in appropriate section
+4. **Add cross-references:**
+   - Link to relevant rulebook sections throughout content
+   - Link to related wiki pages where contextually appropriate
+   - Add a "Related Resources" section at the bottom
+5. **Update navigation:**
+   - Add to `_quarto.yml` sidebar contents in appropriate section
+   - Add to `index.md` in appropriate section
+6. **Update other pages** that should link to the new content
 
 ### Updating Existing Documentation
 
