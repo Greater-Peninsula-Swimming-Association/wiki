@@ -25,7 +25,7 @@ Both teams must mark themselves as **"Ready to Merge"** in SwimTopia by 12:00 PM
 2. Click the **Merge/Export** tab
 3. Click the slider beside your team's name
 
-See [SwimTopia Guidelines - Merge Entries](/swimtopia-guidelines#merging-entries) for detailed instructions.
+See [SwimTopia Guidelines - Merge Entries](swimtopia-guidelines.md#merging-entries) for detailed instructions.
 
 ### 12:00 PM - Meet Merge (Home Team)
 
@@ -63,7 +63,7 @@ After merging the meet, the home GPSA Representative should prepare the followin
 - Each Stroke & Turn official
 - Extras for runners/officials
 
-See [SwimTopia Guidelines - Creating Heat Sheets](/swimtopia-guidelines#creating-heat-sheets) for detailed instructions.
+See [SwimTopia Guidelines - Creating Heat Sheets](swimtopia-guidelines.md#creating-heat-sheets) for detailed instructions.
 
 ### 2. Place Judge Forms
 
@@ -175,7 +175,7 @@ Bring a laptop or tablet with SwimTopia access for your scorekeeper to:
 - Cross-check entries with home scorekeeper
 - Have backup access if needed
 
-See [SwimTopia Guidelines - Using Meet Maestro as Scorekeeper](/swimtopia-guidelines#using-meet-maestro-as-scorekeeper).
+See [SwimTopia Guidelines - Using Meet Maestro as Scorekeeper](swimtopia-guidelines.md#using-meet-maestro-as-scorekeeper).
 
 ### 3. Team Roster Print (Optional)
 
@@ -237,7 +237,7 @@ Before the meet begins, verify these settings:
 
 1. Add Team and Pool records
 2. Add City Meet Qualifying Times
-3. See [SwimTopia Guidelines](/swimtopia-guidelines#adding-record-book-and-qualifying-times-to-the-meet)
+3. See [SwimTopia Guidelines](swimtopia-guidelines.md#adding-record-book-and-qualifying-times-to-the-meet)
 
 ## Troubleshooting
 
@@ -289,7 +289,7 @@ Before the meet begins, verify these settings:
 - [SwimTopia Guidelines](swimtopia-guidelines.md) - Complete SwimTopia documentation
 - [Scorekeeper Guide](scorekeeper.md) - Detailed Meet Maestro scoring instructions
 - [Time Drops Guide](time-drops-about.md) - Semi-automatic timing system
-- [GPSA Rulebook - Conduct of Meets](/rulebook/conduct-of-meets) - Official meet rules
+- [GPSA Rulebook - Conduct of Meets](https://rulebook.gpsaswimming.org/conduct-of-meets.html) - Official meet rules
 
 ## Time-Saving Tips
 

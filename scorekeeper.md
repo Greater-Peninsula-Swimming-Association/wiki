@@ -448,7 +448,7 @@ Collect all meet paperwork and hand to the **home team GPSA rep**:
 The GPSA rep (or designated person) will export results after validation:
 
 1. Export meet results in **SDIF format** (.sd3 or .zip file)
-2. Process through [GPSA Publicity Processor](/tools/publicity.html)
+2. Process through [GPSA Publicity Processor](https://publicity.gpsaswimming.org/tools/publicity.html)
 3. Save as `YYYY-MM-DD_TEAM1_v_TEAM2.html`
 4. Submit to GPSA webmaster for season archive
 
@@ -514,7 +514,7 @@ See [Publicity Processor wiki page](publicity-processor.md) for detailed export 
 4. Try clicking "Load Times" again
 5. If still not working, enter times manually from backup stopwatches
 
-**See Also:** [Time Drops Troubleshooting section](/time-drops#troubleshooting)
+**See Also:** [Time Drops Timing System](time-drops-about.md)
 
 ---
 

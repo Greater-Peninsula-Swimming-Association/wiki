@@ -300,9 +300,9 @@ To prevent premature swim reminders and notifications to SwimTopia mobile app us
 
 After completing this setup:
 
-1. **Practice runs:** Test the full system several times
-2. **Meet day:** See [Time Drops - Running Your Meet](/time-drops-running-meet) (coming soon)
-3. **Troubleshooting:** See [Time Drops Troubleshooting](/time-drops-troubleshooting) (coming soon)
+1. **Practice runs:** Test the full system several times before meet day
+2. **Meet day:** Follow your team's standard meet procedures
+3. **Troubleshooting:** See [Time Drops Timing System](time-drops-about.md) for general guidance
 
 ## Product Support
 
@@ -338,7 +338,6 @@ Click the **?** icon (top right) in Meet Maestro to access:
 ## Related Guides
 
 - [Time Drops Timing System](time-drops-about.md) - General system overview
-- [Meet Maestro Guide](/meet-maestro) - Complete Meet Maestro documentation
 - [Scorekeeper Guide](scorekeeper.md) - Running meets with Meet Maestro
 - [Meet Preparation](meet-preparation.md) - Pre-meet checklist for GPSA reps
 

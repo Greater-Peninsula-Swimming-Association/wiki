@@ -9,7 +9,7 @@ The **GPSA Meet Schedule Generator** is a web-based tool that converts the maste
 ## Quick Start
 
 1. Obtain the master schedule CSV file from your league administrator
-2. Visit [Meet Schedule Generator Tool](/tools/meet-schedule.html)
+2. Visit [Meet Schedule Generator Tool](https://publicity.gpsaswimming.org/tools/meet-schedule.html)
 3. Upload the schedule CSV file
 4. Select the division (Red, White, or Blue)
 5. Click "Generate Schedule"
@@ -281,6 +281,5 @@ For issues or questions about the Meet Schedule Generator:
 
 **Quick Links:**
 
-- [Access the Tool](/tools/meet-schedule.html)
-- [All GPSA Tools](/tools/)
-- [Meet Management](/meet-management)
+- [Access the Tool](https://publicity.gpsaswimming.org/tools/meet-schedule.html)
+- [Meet Preparation Guide](meet-preparation.md)

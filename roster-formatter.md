@@ -8,7 +8,7 @@ The **GPSA Roster Formatter** is a comprehensive web-based tool that processes S
 
 ## Quick Start
 
-1. Visit [Roster Formatter Tool](/tools/roster.html)
+1. Visit [Roster Formatter Tool](https://publicity.gpsaswimming.org/tools/roster.html)
 2. Upload your SwimTopia roster CSV file
 3. Add team contacts and officials information
 4. Review the formatted preview
@@ -74,7 +74,7 @@ The CSV must contain these columns:
 The tool processes age groups as follows:
 
 - **Strips Gender Prefixes**: "Boys 9-10" → "9-10"
-- **Sorts Age Groups**: 8 & Under, 9-10, 11-12, 13-14, 15-18, Open
+- **Sorts Age Groups**: 6 & Under, 7-8, 9-10, 11-12, 13-14, 15-18
 - **Sorts Swimmers**: Alphabetically by name within each age group
 
 ## Tab 2: Contacts
@@ -379,7 +379,7 @@ Works in all modern browsers:
 
 - [Meet Schedule Generator](meet-schedule-generator.md) - Format division schedules
 - [Publicity Processor](publicity-processor.md) - Generate meet result reports
-- [SwimTopia Guide](/swimtopia-guide) - Complete SwimTopia documentation
+- [SwimTopia Guidelines](swimtopia-guidelines.md) - Complete SwimTopia documentation
 
 ## Support
 
@@ -393,7 +393,6 @@ For issues or questions:
 
 **Quick Links:**
 
-- [Access the Tool](/tools/roster.html)
-- [All GPSA Tools](/tools/)
-- [GPSA Representative Duties](/gpsa-rep-duties)
-- [SwimTopia Guide](/swimtopia-guide)
+- [Access the Tool](https://publicity.gpsaswimming.org/tools/roster.html)
+- [GPSA Representative Duties](gpsa-rep-duties.md)
+- [SwimTopia Guidelines](swimtopia-guidelines.md)

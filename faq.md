@@ -122,7 +122,7 @@ Most teams require parent volunteers for various roles:
 
 ### How do I become a certified official?
 
-See our [Official Certification](/certification) page for information about training clinics.
+See the [GPSA Rulebook - Certification](https://rulebook.gpsaswimming.org/officials.html#certification) section for information about training clinics.
 
 ## Championship Meet (City Meet)
 
@@ -153,18 +153,18 @@ Each team has access to their own SwimTopia account.
 
 ### Where can I find meet results?
 
-Results are posted on the [GPSA website](/results) typically within 24-48 hours after each meet.
+Results are posted on the [GPSA website](https://www.gpsaswimming.org) typically within 24-48 hours after each meet.
 
 ### How is scoring calculated?
 
-See our detailed [Scoring System](/scoring) page for complete information.
+See the [GPSA Rulebook - Scoring](https://rulebook.gpsaswimming.org/scoring.html) for complete information.
 
 ## Still Have Questions?
 
 If you can't find the answer here:
 
 1. **Ask your team representative** - They're your first resource
-2. **Check the [League Rules](/league-rules)** - Official rules cover most situations
+2. **Check the [GPSA Rulebook](https://rulebook.gpsaswimming.org)** - Official rules cover most situations
 3. **Contact league officers** - See [Contact Information](https://www.gpsaswimming.org/gpsa-contacts)
 
 ---

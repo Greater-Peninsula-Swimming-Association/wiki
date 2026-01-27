@@ -192,7 +192,7 @@ It is recommended that teams use a dedicated Wi-Fi appliance for the timing syst
 
 4. **Post-Meet**
    - Export final results in SDIF format from **Meet Maestro**
-   - Process through [GPSA Publicity Processor](/tools/publicity.html)
+   - Process through [GPSA Publicity Processor](https://publicity.gpsaswimming.org/tools/publicity.html)
    - Saves as `YYYY-MM-DD_TEAM1_v_TEAM2.html`
 
 ### Timer Instructions
@@ -248,7 +248,7 @@ System follows USA Swimming rules:
 
 ### Using GPSA Publicity Processor
 
-1. Navigate to [GPSA Publicity Processor](/tools/publicity.html)
+1. Navigate to [GPSA Publicity Processor](https://publicity.gpsaswimming.org/tools/publicity.html)
 2. Upload exported .zip or .sd3 file
 3. Click "Process Results"
 4. Review formatted output

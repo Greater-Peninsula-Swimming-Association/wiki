@@ -8,7 +8,7 @@ The **GPSA Meet Publicity Tool** (also called the Publicity Processor) is a powe
 
 ## Quick Start
 
-1. Visit [Publicity Processor Tool](/tools/publicity.html)
+1. Visit [Publicity Processor Tool](https://publicity.gpsaswimming.org/tools/publicity.html)
 2. Upload your SDIF results file (.sd3, .txt, or .zip)
 3. Review the parsed results in the preview
 4. (Optional) Mark forfeit or special circumstances
@@ -549,7 +549,6 @@ For issues or questions:
 
 **Quick Links:**
 
-- [Access the Tool](/tools/publicity.html)
-- [All GPSA Tools](/tools/)
-- [Meet Management](/meet-management)
-- [SwimTopia Guide](/swimtopia-guide)
+- [Access the Tool](https://publicity.gpsaswimming.org/tools/publicity.html)
+- [Meet Preparation Guide](meet-preparation.md)
+- [SwimTopia Guidelines](swimtopia-guidelines.md)

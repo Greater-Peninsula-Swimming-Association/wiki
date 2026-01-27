@@ -170,12 +170,12 @@ GPSA has three divisions:
 ### Age Groups
 
 Standard age groups (age as of June 1st):
-- 8 & Under
+- 6 & Under
+- 7-8
 - 9-10
 - 11-12
 - 13-14
 - 15-18
-- Open (may appear in some contexts)
 
 ## Tools Documentation Pattern
 
