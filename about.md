@@ -33,8 +33,8 @@ The GPSA season runs from mid-June through mid-July, featuring:
 
 - **Division Meets** - All teams in a division compete together
 - **Friendship Meets** - Friendly head-to-head competitions between two teams (does not count toward season rankings)
-- **Summer Splash Invitational** - Season-ending summer awards meet
-- **Championship Meet** - Season-ending championship (City Meet)
+- **[Summer Splash Invitational](https://invitationals.gpsaswimming.org)** - Season-ending summer awards meet
+- **[Championship Meet (City Meet)](https://invitationals.gpsaswimming.org)** - Season-ending championship
 
 ## Age Groups
 

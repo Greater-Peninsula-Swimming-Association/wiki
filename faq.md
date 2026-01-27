@@ -126,6 +126,8 @@ See the [GPSA Rulebook - Certification](https://rulebook.gpsaswimming.org/offici
 
 ## Championship Meet (City Meet)
 
+For complete information about City Meet including qualifying standards, entry deadlines, fees, and meet format, visit the [GPSA Invitationals site](https://invitationals.gpsaswimming.org).
+
 ### Who can compete at City Meet?
 
 Qualifying standards are published before the season. Swimmers must achieve the minimum time in their age group and event during the regular season to compete.
