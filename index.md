@@ -32,6 +32,7 @@ The Greater Peninsula Swimming Association is a youth summer swim league serving
 
 ### Team Administration
 
+- [GPSA Representative Duties](gpsa-rep-duties.md) - Complete guide to GPSA Representative responsibilities
 - [Roster Submittal Process](roster-submittal.md) - End-to-end guide for publishing team rosters using the Roster Formatter
 - [SwimTopia Guidelines](swimtopia-guidelines.md) - Comprehensive guide for team administrators on using SwimTopia
 

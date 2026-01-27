@@ -395,5 +395,5 @@ For issues or questions:
 
 - [Access the Tool](/tools/roster.html)
 - [All GPSA Tools](/tools/)
-- [Team Rep Duties](/team-rep-duties)
+- [GPSA Representative Duties](/gpsa-rep-duties)
 - [SwimTopia Guide](/swimtopia-guide)
