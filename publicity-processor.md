@@ -543,7 +543,7 @@ For issues or questions:
 - **Tool Issues** - Contact GPSA webmaster
 - **SDIF Export Issues** - Contact SwimTopia support or meet software vendor
 - **Archive Builder Issues** - See `dev-tools/README.md`
-- **Feature Requests** - Submit via team representative
+- **Feature Requests** - Submit via GPSA Representative
 
 ---
 

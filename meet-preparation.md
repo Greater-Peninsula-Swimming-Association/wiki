@@ -238,7 +238,7 @@ Before the meet begins, verify these settings:
 **Record Books and Benchmarks:**
 
 1. Add Team and Pool records
-2. Add City Meet Qualifying Times
+2. Add Championship Meet Qualifying Times
 3. See [SwimTopia Guidelines](swimtopia-guidelines.md#adding-record-book-and-qualifying-times-to-the-meet)
 
 ## Troubleshooting

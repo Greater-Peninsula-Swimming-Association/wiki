@@ -95,8 +95,8 @@ See the [Teams](https://www.gpsaswimming.org/teams) page for a complete list of 
 
 GPSA is governed by:
 
-- **Executive Board** - League officers elected by team representatives
-- **Team Representatives** - One representative from each team
+- **Executive Board** - League officers elected by GPSA Representatives
+- **GPSA Representatives** - One representative from each team
 - **Committee Chairs** - Volunteers managing specific league functions
 
 ## History
@@ -108,7 +108,7 @@ GPSA was founded in 1963 when several neighborhood pools and country clubs came 
 For general league inquiries, please contact:
 
 - **League President** - See [Contact Information](https://www.gpsaswimming.org/gpsa-contacts)
-- **Your Team Representative** - Contact information available from your pool
+- **Your GPSA Representative** - Contact information available from your pool
 
 ---
 

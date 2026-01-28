@@ -42,7 +42,7 @@ An annual award presented to a GPSA coach who exemplifies joy, compassion, and c
 
 ---
 
-## 2025 Essay Topic
+## {{< meta gpsa.season >}} Essay Topic
 
 > "How has your coach demonstrated joy, compassion and companionship in connecting with all swimmers on your team this summer?"
 
@@ -62,9 +62,9 @@ It is the intention of GPSA to award the Kei Lamberson Outstanding Coach Award t
 
 Submit this completed nomination form and essay to your team's GPSA Representative.
 
-**Deadline:** All entries must be emailed by the GPSA Representative to [scholarships@gpsaswimming.org](mailto:scholarships@gpsaswimming.org) with subject "Kei Lamberson Coach Award" by **midnight, Sunday, July 27, 2025**.
+**Deadline:** All entries must be emailed by the GPSA Representative to [scholarships@gpsaswimming.org](mailto:scholarships@gpsaswimming.org) with subject "Kei Lamberson Coach Award" by **midnight, {{< meta gpsa.scholarship-deadline >}}**.
 
-The winner will be announced during the City Meet Championship on August 2, 2025.
+The winner will be announced at the Championship Meet on {{< meta gpsa.city-meet-date >}}.
 
 {{< pagebreak >}}
 

@@ -299,7 +299,7 @@ The tool saves to browser localStorage:
 
 ## Best Practices
 
-### For Team Reps
+### For GPSA Representatives
 
 1. **Export CSV at season start** - Get complete roster from SwimTopia
 2. **Enter contacts/officials once** - They persist automatically
@@ -387,7 +387,7 @@ For issues or questions:
 
 - **Tool Issues** - Contact GPSA webmaster
 - **SwimTopia Export Issues** - Contact your SwimTopia administrator
-- **Feature Requests** - Submit via your team representative
+- **Feature Requests** - Submit via your GPSA Representative
 
 ---
 

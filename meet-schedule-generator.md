@@ -275,7 +275,7 @@ For issues or questions about the Meet Schedule Generator:
 - **Need the CSV file?** - Contact your league administrator or division coordinator
 - **Technical Issues** - Contact the GPSA webmaster
 - **Schedule Changes** - Contact your league scheduler or division coordinator
-- **Feature Requests** - Submit via your team representative or league officers
+- **Feature Requests** - Submit via your GPSA Representative or league officers
 
 ---
 

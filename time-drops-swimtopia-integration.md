@@ -339,7 +339,7 @@ Click the **?** icon (top right) in Meet Maestro to access:
 
 - [Time Drops Timing System](time-drops-about.md) - General system overview
 - [Scorekeeper Guide](scorekeeper.md) - Running meets with Meet Maestro
-- [Meet Preparation](meet-preparation.md) - Pre-meet checklist for GPSA reps
+- [Meet Preparation](meet-preparation.md) - Pre-meet checklist for GPSA Representatives
 
 ---
 

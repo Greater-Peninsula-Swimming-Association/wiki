@@ -53,7 +53,7 @@ To be eligible for the J. Kyle Hurdle Scholarship, applicants must:
 
 ### Step 1: Write Your Essay
 
-**2025 Essay Topic:** "What positive impact has summer swimming had on your life? How do you intend to pay this forward?"
+**{{< meta gpsa.season >}} Essay Topic:** "What positive impact has summer swimming had on your life? How do you intend to pay this forward?"
 
 **Essay Requirements:**
 
@@ -74,11 +74,11 @@ Your GPSA Representative will email your application and essay to [scholarships@
 
 ## Deadline
 
-All entries must be emailed by the GPSA Representative by **midnight, July 27, 2025**.
+All entries must be emailed by the GPSA Representative by **midnight, {{< meta gpsa.scholarship-deadline >}}**.
 
 ## Award Announcement
 
-Winners will be announced and awards presented at the **Championship Meet (City Meet)**.
+Winners will be announced and awards presented at the **Championship Meet (City Meet)** on {{< meta gpsa.city-meet-date >}}.
 
 ## Related Resources
 

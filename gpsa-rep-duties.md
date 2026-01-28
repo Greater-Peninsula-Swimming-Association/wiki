@@ -61,7 +61,7 @@ Ensure your team's SwimTopia registration includes the GPSA Code of Conduct agre
 
 ## Meet Day - Home Team
 
-As the home team rep, you have primary responsibility for meet setup and operations.
+As the home team GPSA Representative, you have primary responsibility for meet setup and operations.
 
 ### Before the Meet
 

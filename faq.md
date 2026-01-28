@@ -18,11 +18,11 @@ The GPSA season typically runs from mid-June through mid-July, lasting approxima
 
 ### What is the cost to participate?
 
-Costs vary by team. Contact your local pool or team representative for specific registration fees.
+Costs vary by team. Contact your local pool or GPSA Representative for specific registration fees.
 
 ### Can my child join if they can't swim all four strokes?
 
-Membership requirements vary by team. Contact your local pool or team representative for specific registration requirements. Younger swimmers typically start with freestyle and backstroke, adding breaststroke and butterfly as they develop.
+Membership requirements vary by team. Contact your local pool or GPSA Representative for specific registration requirements. Younger swimmers typically start with freestyle and backstroke, adding breaststroke and butterfly as they develop.
 
 ## Meet Information
 
@@ -89,7 +89,7 @@ A DQ means the swimmer violated a stroke or turn rule, resulting in no points. W
 
 ### Are practices required?
 
-Practice policies vary by team. Check with your team representative or coach for specific attendance expectations.
+Practice policies vary by team. Check with your GPSA Representative or coach for specific attendance expectations.
 
 ### What if we have to miss a meet?
 
@@ -124,21 +124,43 @@ Most teams require parent volunteers for various roles:
 
 See the [GPSA Rulebook - Certification](https://rulebook.gpsaswimming.org/officials.html#certification) section for information about training clinics.
 
+## Summer Splash Invitational
+
+The Summer Splash Invitational is a season-ending awards-style meet celebrating participation for all GPSA swimmers.
+
+For complete information including entry deadlines, fees, and meet format, visit the [GPSA Invitationals site](https://invitationals.gpsaswimming.org).
+
+### Who can compete at Summer Splash?
+
+Summer Splash is open to all GPSA swimmers. Swimmers may enter any event for which they do not have a Championship Meet qualifying time.
+
+### When is Summer Splash?
+
+Summer Splash is typically held the Saturday before the Championship Meet.
+
+The {{< meta gpsa.season >}} Summer Splash Invitational is **{{< meta gpsa.summer-splash-date >}}**.
+
+### Is there a fee for Summer Splash?
+
+Yes, the league charges a fee per swimmer and per event entered. See the [GPSA Invitationals site](https://invitationals.gpsaswimming.org) for current fees. Some teams may cover these fees—check with your GPSA Representative.
+
 ## Championship Meet (City Meet)
 
-For complete information about City Meet including qualifying standards, entry deadlines, fees, and meet format, visit the [GPSA Invitationals site](https://invitationals.gpsaswimming.org).
+For complete information about the Championship Meet including qualifying standards, entry deadlines, fees, and meet format, visit the [GPSA Invitationals site](https://invitationals.gpsaswimming.org).
 
-### Who can compete at City Meet?
+### Who can compete at the Championship Meet?
 
 Qualifying standards are published before the season. Swimmers must achieve the minimum time in their age group and event during the regular season to compete.
 
-### When is City Meet?
+### When is the Championship Meet?
 
-City Meet is typically held on the final weekend of the season. Specific dates are published in the season schedule.
+The Championship Meet is held at the end of the season, usually the last weekend of July or first weekend of August depending on how the calendar falls.
 
-### Is there a fee for City Meet?
+The {{< meta gpsa.season >}} Championship Meet is **{{< meta gpsa.city-meet-date >}}**.
 
-The league does charge a fee per swimmer and per event entered. Some teams may cover these fees, check with your team representative.
+### Is there a fee for the Championship Meet?
+
+The league does charge a fee per swimmer and per event entered. Some teams may cover these fees—check with your GPSA Representative.
 
 ## Technical Questions
 
@@ -165,7 +187,7 @@ See the [GPSA Rulebook - Scoring](https://rulebook.gpsaswimming.org/scoring.html
 
 If you can't find the answer here:
 
-1. **Ask your team representative** - They're your first resource
+1. **Ask your GPSA Representative** - They're your first resource
 2. **Check the [GPSA Rulebook](https://rulebook.gpsaswimming.org)** - Official rules cover most situations
 3. **Contact league officers** - See [Contact Information](https://www.gpsaswimming.org/gpsa-contacts)
 

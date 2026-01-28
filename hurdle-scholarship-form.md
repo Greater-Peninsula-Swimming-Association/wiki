@@ -42,13 +42,13 @@ An annual scholarship awarded by the Greater Peninsula Swimming Association to g
 
 ---
 
-## 2025 Essay Topic
+## {{< meta gpsa.season >}} Essay Topic
 
 > "What positive impact has summer swimming had on your life? How do you intend to pay this forward?"
 
 ## Eligibility
 
-Entrants must be recently graduated high school seniors (or seniors who have already completed their final year of GPSA eligibility) who are planning to advance their education (college, trade school, apprenticeship, etc.) in the 2025-2026 academic year.
+Entrants must be recently graduated high school seniors (or seniors who have already completed their final year of GPSA eligibility) who are planning to advance their education (college, trade school, apprenticeship, etc.) in the upcoming academic year.
 
 ## Essay Requirements
 
@@ -60,9 +60,9 @@ Entrants must be recently graduated high school seniors (or seniors who have alr
 
 Submit this completed application and essay to your team's GPSA Representative. The representative's submission serves as their recommendation of the applicant's leadership, work ethic, and sportsmanship.
 
-**Deadline:** All entries must be emailed by the GPSA Representative to [scholarships@gpsaswimming.org](mailto:scholarships@gpsaswimming.org) with subject "GPSA Scholarship" by **midnight, Sunday, July 27, 2025**.
+**Deadline:** All entries must be emailed by the GPSA Representative to [scholarships@gpsaswimming.org](mailto:scholarships@gpsaswimming.org) with subject "GPSA Scholarship" by **midnight, {{< meta gpsa.scholarship-deadline >}}**.
 
-Winners will be announced during the City Meet Championship on August 2, 2025.
+Winners will be announced at the Championship Meet on {{< meta gpsa.city-meet-date >}}.
 
 {{< pagebreak >}}
 

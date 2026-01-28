@@ -45,7 +45,7 @@ Download and fill out the [Nomination Form](lamberson-award-form.pdf).
 
 ### Step 2: Write the Nomination Essay
 
-**2025 Essay Topic:** "How has your coach demonstrated joy, compassion and companionship in connecting with all swimmers on your team this summer?"
+**{{< meta gpsa.season >}} Essay Topic:** "How has your coach demonstrated joy, compassion and companionship in connecting with all swimmers on your team this summer?"
 
 **Essay Requirements:**
 
@@ -62,11 +62,11 @@ The GPSA Representative will email the nomination to [scholarships@gpsaswimming.
 
 ## Deadline
 
-All entries must be emailed by the GPSA Representative by **midnight, Sunday, July 27, 2025**.
+All entries must be emailed by the GPSA Representative by **midnight, {{< meta gpsa.scholarship-deadline >}}**.
 
 ## Award Announcement
 
-The winner will be announced during the **Championship Meet (City Meet)**.
+The winner will be announced at the **Championship Meet (City Meet)** on {{< meta gpsa.city-meet-date >}}.
 
 ## Related Resources
 

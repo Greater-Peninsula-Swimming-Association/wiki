@@ -11,6 +11,15 @@ project:
     - "!DEPLOYMENT.md"
     - "!GEMINI.md"
 
+# =============================================================================
+# Season-specific dates (update annually)
+# =============================================================================
+gpsa:
+  season: "2026"
+  scholarship-deadline: "July 26, 2026"
+  summer-splash-date: "July 25, 2026"
+  city-meet-date: "August 1, 2026"
+
 website:
   title: "GPSA Wiki"
   site-url: https://wiki.gpsaswimming.org
@@ -36,31 +45,32 @@ website:
           - about.md
           - faq.md
 
-      - section: "Web Tools"
+      - section: "Team Administration"
         contents:
-          - meet-schedule-generator.md
-          - roster-formatter.md
-          - publicity-processor.md
+          - gpsa-rep-duties.md
+          - roster-submittal.md
+          - publicity-submittal.md
+          - swimtopia-guidelines.md
 
       - section: "Meet Management"
         contents:
           - meet-preparation.md
           - scorekeeper.md
-          - publicity-submittal.md
-          - season-archive.md
           - time-drops-about.md
           - time-drops-swimtopia-integration.md
 
-      - section: "Team Administration"
-        contents:
-          - gpsa-rep-duties.md
-          - roster-submittal.md
-          - swimtopia-guidelines.md
-
       - section: "Scholarships & Awards"
+        href: scholarships-awards.md
         contents:
           - hurdle-scholarship.md
           - lamberson-award.md
+
+      - section: "Web Tools"
+        contents:
+          - meet-schedule-generator.md
+          - roster-formatter.md
+          - publicity-processor.md
+          - season-archive.md
 
     tools:
       - icon: house

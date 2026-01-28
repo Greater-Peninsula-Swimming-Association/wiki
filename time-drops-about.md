@@ -475,7 +475,7 @@ Switch to manual timing if:
 ### Training Opportunities
 
 - Contact teams experienced with Time Drops for hands-on training
-- Attend GPSA team representative meetings for system demonstrations
+- Attend GPSA Representative meetings for system demonstrations
 - Request demo at pre-season officials training
 
 ### Pooling Equipment

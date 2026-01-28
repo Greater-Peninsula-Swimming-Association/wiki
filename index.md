@@ -39,8 +39,7 @@ The Greater Peninsula Swimming Association is a youth summer swim league serving
 
 ### Scholarships & Awards
 
-- [J. Kyle Hurdle Scholarship](hurdle-scholarship.md) - Annual scholarship for graduating GPSA seniors
-- [Kei Lamberson Outstanding Coach Award](lamberson-award.md) - Annual award recognizing exceptional coaches
+- [Scholarships & Awards](scholarships-awards.md) - GPSA recognition programs for swimmers and coaches
 
 ## Additional Resources
 

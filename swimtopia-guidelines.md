@@ -61,9 +61,9 @@ To add or edit team waivers:
 
 ![Acknowledgments Section](assets/swimtopia/image11.png)
 
-### GPSA Code of Conduct and City Meet Waiver
+### GPSA Code of Conduct and Championship Meet Waiver
 
-The GPSA Code of Conduct and City Meet Waiver can be imported in the Registration form, Acknowledgments section.
+The GPSA Code of Conduct and Championship Meet Waiver can be imported in the Registration form, Acknowledgments section.
 
 ![GPSA Code of Conduct Import](assets/swimtopia/image1.png)
 
@@ -135,11 +135,11 @@ Record books track team and pool records over time.
 - [Creating a Record Book](https://help.swimtopia.com/hc/en-us/articles/360022227232-Creating-a-Record-Book)
 - [Managing a Record Book](https://help.swimtopia.com/hc/en-us/articles/360022469891)
 
-### Importing City Meet Qualifying Times
+### Importing Championship Meet Qualifying Times
 
-City Meet Qualifying Times will be published from the league to all teams.
+Championship Meet Qualifying Times will be published from the league to all teams.
 
-![City Meet Qualifying Times Import](assets/swimtopia/image6.png)
+![Championship Meet Qualifying Times Import](assets/swimtopia/image6.png)
 
 ## Team Website
 
@@ -205,7 +205,7 @@ When in the detailed view of a swimmer, selecting the **All** URL in the bottom 
 
 ### Bonus Entry for Small Teams
 
-To keep all teams using the same meet template, any team that meets the requirements to allow swimmers to swim in 4 individual events can do so by using the **Bon** checkbox. It is the responsibility of the GPSA rep and coach to ensure bonus entries are only used when permitted by GPSA rules.
+To keep all teams using the same meet template, any team that meets the requirements to allow swimmers to swim in 4 individual events can do so by using the **Bon** checkbox. It is the responsibility of the GPSA Representative and coach to ensure bonus entries are only used when permitted by GPSA rules.
 
 ### Building a Relay Team
 
@@ -301,15 +301,15 @@ To add Team and Pool records to a meet:
 
 ![Select Record Books](assets/swimtopia/image17.png)
 
-### Adding City Meet Qualifying Times
+### Adding Championship Meet Qualifying Times
 
-To add the City Meet Qualifying Time Standard to a meet:
+To add the Championship Meet Qualifying Time Standard to a meet:
 
 1. Launch Meet Maestro
 2. Click on the **Settings Gear** on the top right
 3. Select **Benchmarks** from the left side menu
 4. Click the **Add Time Standard** button
-5. Select the listed City Meet Qualifying Times
+5. Select the listed Championship Meet Qualifying Times
 
 ![Add Qualifying Times](assets/swimtopia/image16.png)
 
@@ -326,7 +326,7 @@ In Meet Maestro, click on the **Settings Gear** on the top right. Select **Repor
 There are many options available when generating Heat Sheets:
 
 - **Team filter** - Create a "sanitized" Heat Sheet to print and share with your team
-- **Benchmarks** - Include City Meet Qualifying Times for each event on the heat sheet
+- **Benchmarks** - Include Championship Meet Qualifying Times for each event on the heat sheet
 
 ## Printing Place Judge Forms
 

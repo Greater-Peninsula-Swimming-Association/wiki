@@ -105,7 +105,7 @@ GPSA dual meet rules allow only **2 swimmers per team per event** to score point
 
 **Ideal Workflow:**
 - Coaches mark exhibition swimmers in SwimTopia before the meet is merged
-- GPSA rep verifies exhibition status early on meet day (before warm-ups)
+- GPSA Representative verifies exhibition status early on meet day (before warm-ups)
 
 **If Not Done:**
 The scorekeeper (or rep) must mark exhibition swimmers manually:
@@ -126,7 +126,7 @@ The scorekeeper station should have:
 - ✅ Access to Wi-Fi (if using Time Drops timing system)
 - ✅ Backup power source (battery pack or power outlet)
 
-**Note:** The GPSA rep or their designee typically sets up the scorekeeper station. The scorekeeper should arrive and verify everything is functional before the meet starts.
+**Note:** The GPSA Representative or their designee typically sets up the scorekeeper station. The scorekeeper should arrive and verify everything is functional before the meet starts.
 
 ## During the Meet: Step-by-Step
 
@@ -223,7 +223,7 @@ As paperwork arrives at the scorekeeper table, set it aside in an organized mann
 **Purpose:**
 - Available for questions during the meet
 - Used for post-meet referee validation
-- Handed to home team GPSA rep at meet conclusion
+- Handed to home team GPSA Representative at meet conclusion
 
 **Storage Tip:** Use a folder or clipboard to keep paperwork organized by event number.
 
@@ -243,7 +243,7 @@ When a referee issues a disqualification slip:
    - DQ'd swimmers receive no points and no time recorded
 
 3. **Separate DQ Slip Copies**
-   - **White Copy:** Keep with meet paperwork (goes to GPSA rep)
+   - **White Copy:** Keep with meet paperwork (goes to GPSA Representative)
    - **Yellow Copy:** Set aside for the swimmer's coach
 
 4. **Distribution**
@@ -433,7 +433,7 @@ Before the referee performs final validation:
 
 ### Step 3: Paperwork Handoff
 
-Collect all meet paperwork and hand to the **home team GPSA rep**:
+Collect all meet paperwork and hand to the **home team GPSA Representative**:
 
 - ✅ Place Judge Forms (all events)
 - ✅ Lane Slips / Index Cards / Lane Timer Sheets
@@ -441,11 +441,11 @@ Collect all meet paperwork and hand to the **home team GPSA rep**:
 - ✅ Meet change forms
 - ✅ Any other meet documentation
 
-**Purpose:** The GPSA rep archives paperwork with other meet records in case of future questions or disputes.
+**Purpose:** The GPSA Representative archives paperwork with other meet records in case of future questions or disputes.
 
 ### Step 4: Results Export
 
-The GPSA rep (or designated person) will export results after validation:
+The GPSA Representative (or designated person) will export results after validation:
 
 1. Export meet results in **SDIF format** (.sd3 or .zip file)
 2. Process through [GPSA Publicity Processor](https://publicity.gpsaswimming.org/tools/publicity.html)
@@ -612,7 +612,7 @@ See [Publicity Processor wiki page](publicity-processor.md) for detailed export 
 - [ ] Review DQs are entered correctly
 - [ ] Call referee for post-meet validation
 - [ ] Collect all meet paperwork
-- [ ] Hand paperwork to home team GPSA rep
+- [ ] Hand paperwork to home team GPSA Representative
 - [ ] Assist with SDIF export if requested
 - [ ] Close Meet Maestro properly (don't just close browser)
 
@@ -646,7 +646,7 @@ No. Scorekeeping is primarily data entry and attention to detail. Understanding 
 
 ### What if I've never used Meet Maestro before?
 
-Ask the GPSA rep to walk you through the interface before the meet starts. Most scorekeepers learn on the job. Review this wiki page beforehand and keep it open during the meet for reference.
+Ask the GPSA Representative to walk you through the interface before the meet starts. Most scorekeepers learn on the job. Review this wiki page beforehand and keep it open during the meet for reference.
 
 ### Can I see the meet score while entering results?
 
@@ -662,7 +662,7 @@ Direct the coach to the referee. Scorekeepers do not make DQ decisions or arbitr
 
 ### How do I know which swimmers are exhibition?
 
-Exhibition status is set by coaches before the meet. If unclear, ask the GPSA rep or the coach. Remember: only 2 swimmers per team per event can score points in GPSA dual meets.
+Exhibition status is set by coaches before the meet. If unclear, ask the GPSA Representative or the coach. Remember: only 2 swimmers per team per event can score points in GPSA dual meets.
 
 ### What happens if I make a mistake entering times?
 
@@ -670,7 +670,7 @@ Simply click back into the Result Time field, delete the incorrect time, and ent
 
 ### Can I leave the scorekeeper station during the meet?
 
-Only briefly, and only if someone else is covering. The scorekeeper must be present to enter results immediately after each heat. Communicate with the GPSA rep if you need a break.
+Only briefly, and only if someone else is covering. The scorekeeper must be present to enter results immediately after each heat. Communicate with the GPSA Representative if you need a break.
 
 ### Do I need to save my work in Meet Maestro?
 
@@ -682,4 +682,4 @@ Meet Maestro is cloud-based, so your data is saved on SwimTopia's servers. Log b
 
 ---
 
-**Need Help?** Contact your team's GPSA rep, the meet referee, or refer to SwimTopia's Meet Maestro help articles (accessible via the Help menu in Meet Maestro).
+**Need Help?** Contact your team's GPSA Representative, the meet referee, or refer to SwimTopia's Meet Maestro help articles (accessible via the Help menu in Meet Maestro).

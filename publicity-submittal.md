@@ -4,11 +4,11 @@ toc: false
 last_updated: January 2026
 ---
 
-This guide describes how home team representatives submit meet results for league publicity after each dual meet.
+This guide describes how home team GPSA Representatives submit meet results for league publicity after each dual meet.
 
 ## Quick Reference
 
-- **Who submits:** Home team representative
+- **Who submits:** Home team GPSA Representative
 - **When to submit:** After meet conclusion
 - **File type:** SDIF/SD3 results file
 - **Send to:** [publicity@gpsaswimming.org](mailto:publicity@gpsaswimming.org)

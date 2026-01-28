@@ -4,7 +4,7 @@ toc: true
 last_updated: January 2026
 ---
 
-This guide walks GPSA team representatives and administrators through the complete process of publishing team rosters to the league SwimTopia site.
+This guide walks GPSA Representatives and administrators through the complete process of publishing team rosters to the league SwimTopia site.
 
 ## Quick Reference
 
@@ -78,7 +78,7 @@ Before using the formatter tool, gather the following:
 
 ![Contacts tab](/assets/images/managing-rosters/image17.png)
 
-**2.** Input the necessary information for your team's GPSA Rep(s) and Coach(es). Format phone numbers as: `123-456-7890`
+**2.** Input the necessary information for your team's GPSA Representative(s) and Coach(es). Format phone numbers as: `123-456-7890`
 
 **3.** Click the **Export Contacts HTML** button
 
