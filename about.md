@@ -4,7 +4,7 @@ toc: true
 last_updated: January 2026
 ---
 
-The Greater Peninsula Swimming Association (GPSA) is a summer recreational swim league serving youth swimmers on the Virginia Peninsula. Founded in the 1960s, GPSA has provided generations of swimmers with a fun, competitive environment to develop their skills and build lasting friendships.
+The Greater Peninsula Swimming Association (GPSA) is a summer recreational swim league serving youth swimmers on the Virginia Peninsula. Founded in the 1963, the GPSA has provided generations of swimmers with a fun, competitive environment to develop their skills and build lasting friendships.
 
 ## Mission Statement
 
@@ -54,7 +54,7 @@ Standard head-to-head competitions between two teams from the same division. The
 Optional meets between teams from **different divisions** or teams wanting additional competition. Friendship meets:
 
 - Do **not** count toward division standings or rankings
-- Follow the same rules and format as dual meets
+- Typically follow the same rules and format as dual meets
 - Are scheduled by mutual agreement between participating teams
 - Provide additional competition opportunities without affecting standings
 
@@ -101,7 +101,7 @@ GPSA is governed by:
 
 ## History
 
-GPSA was founded in 1963 when several neighborhood pools and country clubs came together to create a competitive summer swim league. Over the decades, the league has grown and evolved while maintaining its core mission of providing quality youth swimming experiences.
+GPSA was founded in 1963 when several neighborhood pools and country clubs came together to create a competitive summer swim league. Over the decades, the league has evolved while maintaining its core mission of providing quality youth swimming experiences.
 
 ## Contact
 
