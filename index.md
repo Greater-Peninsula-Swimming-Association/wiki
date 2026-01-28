@@ -37,6 +37,11 @@ The Greater Peninsula Swimming Association is a youth summer swim league serving
 - [Roster Submittal Process](roster-submittal.md) - End-to-end guide for publishing team rosters using the Roster Formatter
 - [SwimTopia Guidelines](swimtopia-guidelines.md) - Comprehensive guide for team administrators on using SwimTopia
 
+### Scholarships & Awards
+
+- [J. Kyle Hurdle Scholarship](hurdle-scholarship.md) - Annual scholarship for graduating GPSA seniors
+- [Kei Lamberson Outstanding Coach Award](lamberson-award.md) - Annual award recognizing exceptional coaches
+
 ## Additional Resources
 
 - [Contact Information](https://www.gpsaswimming.org/gpsa-contacts) - League officers and team contacts

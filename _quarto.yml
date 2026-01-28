@@ -57,6 +57,11 @@ website:
           - roster-submittal.md
           - swimtopia-guidelines.md
 
+      - section: "Scholarships & Awards"
+        contents:
+          - hurdle-scholarship.md
+          - lamberson-award.md
+
     tools:
       - icon: house
         href: https://gpsaswimming.org
@@ -110,9 +115,15 @@ format:
       text: |
         \usepackage{graphicx}
         \usepackage{xcolor}
+        % Disable hyphenation
+        \usepackage[none]{hyphenat}
+        \sloppy
         \usepackage{pagecolor}
         \usepackage{titlesec}
         \usepackage{fancyhdr}
+        % Fillable form fields
+        \usepackage{hyperref}
+        \hypersetup{pdfstartview=FitH, pdfpagelayout=SinglePage}
         % GPSA Brand Colors
         \definecolor{GPSANavy}{HTML}{002366}
         \definecolor{GPSARed}{HTML}{d9242b}
@@ -140,8 +151,12 @@ format:
 
             \vspace{0.75cm}
 
-            % Subtitle - GPSA Wiki
-            {\Large\color{GPSANavy}GPSA Wiki Documentation\par}
+            % Subtitle - use @subtitle if defined, otherwise default
+            \@ifundefined{@subtitle}{%
+              {\Large\color{GPSANavy}GPSA Wiki Documentation\par}%
+            }{%
+              {\Large\color{GPSANavy}\@subtitle\par}%
+            }
 
             \vspace{2cm}
 
