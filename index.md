@@ -15,6 +15,7 @@ The Greater Peninsula Swimming Association is a youth summer swim league serving
 
 - [About GPSA](about.md) - Learn about our league structure, history, and mission
 - [FAQ](faq.md) - Frequently asked questions
+- [Championship Meet Qualifying Times](qualifying-times.md) - Time standards for Championship Meet events
 
 ### Web Tools Documentation
 
