@@ -21,32 +21,34 @@ This guide describes how home team GPSA Representatives submit meet results for 
 
 After the meet concludes, export the SDIF/SD3 results file from SwimTopia:
 
-1. Log in to SwimTopia as a meet administrator
-2. Navigate to **Meets** > **Meet Results**
-3. Select the meet you want to export
-4. Click **Export Results**
-5. Choose **SDIF/SD3 Format** (not HY3 format)
-6. Save the file (e.g., `meet_results.sd3`)
+1. Log in to Meet Maestro as a meet administrator
+2. Navigate to **Settings** > **Finish & Export** > **Downloads**
+3. Export Type: **Results**
+4. Export Format: **SDIF SD3**
+5. Team: **All Times**
+6. Click **Generate File**
+7. Once available **Download** Results file
 
-The file will have an `.sd3` or `.txt` extension.
+The file will have an `.zip` extension.
 
 **Important:** The tool does NOT support HY3/Hy-Tek 3.0 format files. Always export as SDIF/SD3.
 
 #### Troubleshooting Export Issues
 
 | Problem | Solution |
-|---------|----------|
+| --------- | ---------- |
 | Can't find Export Results option | Verify you have meet administrator access in SwimTopia |
 | File won't download | Check browser download settings and try a different browser |
 | Only HY3 format available | Contact SwimTopia support - SDIF export should be available for all meets |
 
 ### 2. Email the Results
 
-Send the SDIF/SD3 file as an attachment to:
+Send the Zip/SDIF/SD3 file as an attachment to:
 
 **[publicity@gpsaswimming.org](mailto:publicity@gpsaswimming.org)**
 
 Include in your email:
+
 - Teams involved (e.g., "Glendale vs Wendwood")
 - Meet date
 
