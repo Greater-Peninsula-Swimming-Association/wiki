@@ -146,7 +146,7 @@ Use these **standard team abbreviations** consistently:
 | CV | Coventry |
 | EL | Elizabeth Lake |
 | GG | Glendale |
-| GWRA | George Wythe |
+| GWRA | Wythe |
 | HW | Hidenwood |
 | JRCC | James River |
 | KCD | Kiln Creek |
@@ -155,6 +155,7 @@ Use these **standard team abbreviations** consistently:
 | POQ | Poquoson |
 | RRST | Riverdale |
 | RMMR | Running Man |
+| VG | Village Green |
 | WW | Wendwood |
 | WO | Willow Oaks |
 | WPPIR | Windy Point |

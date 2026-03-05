@@ -91,7 +91,7 @@ The tool automatically converts SwimTopia team abbreviations to readable names:
 | CV | Coventry |
 | EL | Elizabeth Lake |
 | GG | Glendale |
-| GWRA | George Wythe |
+| GWRA | Wythe |
 | HW | Hidenwood |
 | JRCC | James River |
 | KCD | Kiln Creek |
@@ -100,6 +100,7 @@ The tool automatically converts SwimTopia team abbreviations to readable names:
 | POQ | Poquoson |
 | RRST | Riverdale |
 | RMMR | Running Man |
+| VG | Village Green |
 | WW | Wendwood |
 | WO | Willow Oaks |
 | WPPIR | Windy Point |

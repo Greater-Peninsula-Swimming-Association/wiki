@@ -87,7 +87,7 @@ Use these abbreviations in the `team_code` column:
 | CV | Coventry |
 | EL | Elizabeth Lake |
 | GG | Glendale |
-| GWRA | George Wythe |
+| GWRA | Wythe |
 | HW | Hidenwood |
 | JRCC | James River |
 | KCD | Kiln Creek |
@@ -96,6 +96,7 @@ Use these abbreviations in the `team_code` column:
 | POQ | Poquoson |
 | RRST | Riverdale |
 | RMMR | Running Man |
+| VG | Village Green |
 | WW | Wendwood |
 | WO | Willow Oaks |
 | WPPI | Windy Point |
