@@ -30,7 +30,7 @@ format:
         \pagestyle{empty}
 ---
 
-These are the qualifying times for the {{< meta gpsa.season >}} Championship Meet (City Meet). Swimmers must achieve these times during the regular season to qualify.
+These are the current qualifying times for the Championship Meet (City Meet). Swimmers must achieve these times during the regular season to qualify.
 
 ::: {.content-visible when-format="html"}
 
