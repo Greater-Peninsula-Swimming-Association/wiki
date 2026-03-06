@@ -11,6 +11,8 @@ _epub/
 .DS_Store
 .AppleDouble
 .LSOverride
+._*
+.fseventsd
 
 # Editor directories
 .vscode/
