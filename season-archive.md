@@ -83,7 +83,7 @@ season,team_code,division
 Use these abbreviations in the `team_code` column:
 
 | Code | Team |
-|------|------|
+| --- | --- |
 | BLMA | Beaconsdale |
 | COL | Colony |
 | CV | Coventry |
@@ -125,6 +125,7 @@ YYYY-MM-DD_HOME_v_AWAY.html
 ```
 
 Examples:
+
 - `2025-06-16_GG_v_WW.html`
 - `2025-07-14_KCD_v_RRST.html`
 
@@ -197,6 +198,7 @@ Each season archive includes:
 **Cause:** HTML file contains incorrect data
 
 **Solution:**
+
 1. Re-export from Meet Maestro
 2. Re-process through Publicity Processor
 3. Replace the HTML file and commit

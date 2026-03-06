@@ -23,6 +23,7 @@ For official rules, see the [GPSA Rulebook - Officials](https://rulebook.gpsaswi
 Submit signed Code of Conduct acknowledgment forms to the Rules Committee **no later than 7 days before your team's first meet**.
 
 Required signatures:
+
 - GPSA Representative
 - All coaches
 
@@ -41,11 +42,13 @@ Submit initial roster **no later than one week before the season starts**.
 ### Official Certification
 
 Ensure your team has sufficient certified officials for meets. Required certifications:
+
 - Referee
 - Starter
 - Stroke & Turn Judge
 
 **Certification options:**
+
 1. USA Swimming certification (current)
 2. Attend annual GPSA Officials' Training Clinic
 3. Complete USA Swimming online course
@@ -68,7 +71,7 @@ As the home team GPSA Representative, you have primary responsibility for meet s
 See [GPSA Rulebook - Pre-Meet Requirements](https://rulebook.gpsaswimming.org/conduct-of-meets.html#pre-meet-requirements) for official deadlines.
 
 | Time | Task |
-|------|------|
+| --- | --- |
 | 12:00 PM | Verify both teams marked "Ready to Merge" |
 | 12:00 PM | [Merge entries](swimtopia-guidelines.md#merging-entries) in SwimTopia |
 | After merge | Verify entries comply with [participation rules](https://rulebook.gpsaswimming.org/conduct-of-meets.html#swimmer-participation-and-entries) (event limits, exhibition, max scoring entrants) |
@@ -82,7 +85,7 @@ See [Meet Preparation Guide](meet-preparation.md) for detailed instructions.
 See [GPSA Rulebook - Team Responsibilities](https://rulebook.gpsaswimming.org/conduct-of-meets.html#team-responsibilities) for official requirements.
 
 | Item | Quantity |
-|------|----------|
+| --- | --- |
 | Referee | 1 |
 | Starter | 1 |
 | Stroke & Turn Judges | 2 |
@@ -134,14 +137,14 @@ Before the meet, agree with the opposing GPSA Representative on:
 ### Before the Meet
 
 | Time | Task |
-|------|------|
+| --- | --- |
 | By 12:00 PM | [Mark team as "Ready to Merge"](swimtopia-guidelines.md#merging-entries) in SwimTopia |
 | Before meet | Prepare backup heat sheets and scorekeeper materials |
 
 ### Equipment and Officials to Provide
 
 | Item | Quantity |
-|------|----------|
+| --- | --- |
 | Stroke & Turn Judges | 2 |
 | Timers | 1 per assigned lane |
 | Sweep Judge | 1 |
@@ -172,6 +175,7 @@ For complete rules, see [GPSA Rulebook - Scheduling and Postponements](https://r
 ### Before Meet Starts
 
 If conditions are unsafe or facility unusable:
+
 - Notify the visiting team's GPSA Representative immediately
 - Notify the GPSA Publicity Committee
 - A meet may be postponed by mutual agreement of both reps
@@ -215,15 +219,18 @@ You are the **sole representative** authorized to file a protest on behalf of yo
 ### Post-Meet Appeals
 
 You may appeal a referee's decision to the Rules Committee if:
+
 - The protest determined the winning team, OR
 - You believe the decision warrants further review
 
 **Timeline:**
+
 - Submit written appeal within 3 days of the meet
 
 ### Post-Meet Protests (New Issues)
 
 For issues discovered after the meet:
+
 1. Initial notification to Rules Committee within 24 hours
 2. Formal written protest within 3 days
 
@@ -272,6 +279,7 @@ Both submissions are due by **midnight, July 27** each year. Email to [scholarsh
 ## If You Change Mid-Season
 
 If you step down as GPSA Representative:
+
 - Submit new Code of Conduct form for the new representative
 - Ensure smooth handoff of all responsibilities
 - Notify the league of the change

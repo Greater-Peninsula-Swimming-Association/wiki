@@ -23,6 +23,7 @@ An annual award presented to a GPSA coach who exemplifies joy, compassion, and c
 :::
 
 ::: {.content-visible when-format="pdf"}
+
 ```{=latex}
 \begin{center}
 \includegraphics[width=1.5in]{assets/scholarships/kei_lamberson.jpg}
@@ -38,6 +39,7 @@ An annual award presented to a GPSA coach who exemplifies joy, compassion, and c
 \end{minipage}
 \end{center}
 ```
+
 :::
 
 ---

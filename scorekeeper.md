@@ -104,6 +104,7 @@ Place Judge Forms are used by sweeps judges to record the order of finish for ea
 GPSA dual meet rules allow only **2 swimmers per team per event** to score points. All other swimmers must be marked **Exhibition (EXH)**.
 
 **Ideal Workflow:**
+
 - Coaches mark exhibition swimmers in SwimTopia before the meet is merged
 - GPSA Representative verifies exhibition status early on meet day (before warm-ups)
 
@@ -155,6 +156,8 @@ For manual timing (stopwatches):
 
 **Tip:** Times typically appear as `SS.SS` for most youth swim events (e.g., `32.45`). Meet Maestro accepts both formats.
 
+**Power User Tip:** You can enter times as a plain number without punctuation — Meet Maestro will automatically format it. For example, typing `10534` becomes `1:05.34`, and `3245` becomes `32.45`. This is faster than typing colons and decimal points.
+
 #### Time Drops Electronic Timing
 
 If the meet uses [Time Drops wireless timing system](time-drops-about.md):
@@ -182,31 +185,59 @@ For swimmers who don't compete:
 
 ### Step 2: Entering Order of Finish (Heat 1 Only)
 
-For the **scoring heat (Heat 1)**, you must manually enter the order of finish for point-scoring swimmers.
+For the **scoring heat (Heat 1)**, you ***must*** manually enter the order of finish for point-scoring swimmers.
 
 #### Why This Matters
 
-- GPSA dual meets score the **top finishers** in each event
-- Only the 2 designated point swimmers per team are eligible to score
-- Meet Maestro needs the order of finish to calculate points correctly
+**GPSA dual meets are scored by place (sweeps), not by time.** This is critical to understand:
+
+- The order of finish — not swim times — determines which team earns points
+- The sweeps judges observe the finish and record the order of finish on the **Place Judge Form**
+- The referee reviews the Place Judge Form, adjusts finishing positions to account for any DQs, initials it, and hands it to the scorekeeper
+- Entering the Heat Place values in Meet Maestro ensures the official score reflects exactly what the sweeps judges recorded and the referee verified
+- Only the 2 designated point swimmers per team are eligible to score (exhibition swimmers are excluded)
+
+#### About the Place Judge Form
+
+The Place Judge Form is pre-printed before the meet (see [Pre-Meet Setup: Step 3](#step-3-print-place-judge-forms)) and contains one form per event's scoring heat.
+
+![Place Judge Form example](assets/swimtopia/place-judge-form.png)
+
+Each form has two sections:
+
+**Top section — Place boxes:**
+A header row with place labels (1st, 2nd, 3rd... up to the number of lanes) and a blank row of boxes below. The sweeps judge watches the finish and writes the **lane number** of each finisher into the box under the corresponding place (e.g., Lane 3 touches first → write `3` under 1st).
+
+**Bottom section — Heat sheet:**
+Lists every swimmer seeded into the heat with their lane number, name, age, team, and blank Place and Time columns. Exhibition swimmers are pre-marked EXH. You cross-reference the lane numbers from the place boxes above to find the swimmer and enter their Heat Place in Meet Maestro.
+
+After the heat, the referee collects the form, makes any adjustments for DQs (removing DQ'd swimmers from the place order), initials the form, and delivers it to the scorekeeper table.
 
 #### Process
 
-1. Receive the **Place Judge Form** from the sweeps judge after Heat 1 completes
+1. Receive the initialed **Place Judge Form** from the referee after Heat 1 completes
 2. Locate Heat 1 in Meet Maestro
 3. For each **point-scoring swimmer** (not exhibition):
    - Find the **Heat Place** field for that swimmer
-   - Enter their finishing position: `1`, `2`, `3`, `4`, etc.
+   - Enter their finishing position from the Place Judge Form: `1`, `2`, `3`, `4`, etc.
 4. Leave exhibition swimmers' Heat Place field blank
 
-**Example:**
+**Example** — Place Judge Form place boxes (top section), as filled in by the sweeps judge:
 
-| Lane | Swimmer | Time | EXH | Heat Place |
-|------|---------|------|-----|------------|
-| 1 | Sarah Jones | 32.45 | | **1** |
-| 2 | Emily Smith | 33.12 | | **2** |
-| 3 | Lisa Wilson | 34.22 | | **3** |
-| 4 | Katie Brown | 33.89 | ☑ | *(leave blank)* |
+| 1st | 2nd | 3rd | 4th | 5th | 6th |
+| --- | --- | --- | --- | --- | --- |
+| 2 | 1 | 3 | 4 | 5 | 6 |
+
+You then look up each lane number in the heat sheet below to find the swimmer, and enter those positions as Heat Place values in Meet Maestro:
+
+| Lane | Swimmer | Team | EXH | Heat Place entered in Meet Maestro |
+| --- | --- | --- | --- | --- |
+| 1 | Rew, Maddie (9) | EL | | **2** |
+| 2 | Cagle, Makenna (10) | KCD | | **1** |
+| 3 | Smeltzer, Abby (10) | EL | | **3** |
+| 4 | Artis, Gracie (10) | KCD | | **4** |
+| 5 | McGhee, Rose (10) | KCD | ☑ | *(leave blank)* |
+| 6 | Sahin, Eva (9) | KCD | ☑ | *(leave blank)* |
 
 **Result:** Meet Maestro automatically calculates team points based on the finishing order of non-exhibition swimmers.
 
@@ -215,12 +246,14 @@ For the **scoring heat (Heat 1)**, you must manually enter the order of finish f
 As paperwork arrives at the scorekeeper table, set it aside in an organized manner:
 
 **Keep These Documents:**
+
 - ✅ Place Judge Forms (after entering order of finish)
 - ✅ Lane Slips / Index Cards / Lane Timer Sheets (after entering times)
 - ✅ White copies of DQ slips (see Step 4)
 - ✅ Any meet change forms submitted by coaches
 
 **Purpose:**
+
 - Available for questions during the meet
 - Used for post-meet referee validation
 - Handed to home team GPSA Representative at meet conclusion
@@ -262,6 +295,7 @@ Coaches may submit meet changes during the meet (moving swimmers between heats, 
 - ❌ **Not Accepted:** Changes for current event or events less than 3 events away
 
 **Example:**
+
 - Currently running: Event 8
 - Can accept changes for: Event 11 and later
 - Cannot accept changes for: Events 8, 9, or 10
@@ -319,6 +353,7 @@ Teams use different strategies for timing label prints:
 Award labels are printed for swimmers who placed in the top positions (1st-3rd, or 1st-4th if the host pool provides 4th place ribbons).
 
 **Information on Label:**
+
 - Swimmer Name
 - Team
 - Event Name
@@ -343,6 +378,7 @@ Award labels are printed for swimmers who placed in the top positions (1st-3rd, 
 6. Hand printed labels to ribbon writers or coaches
 
 **Relay Events:**
+
 - Filter to **Places: 1-1** (only 1st place)
 - Print separately from individual events if needed
 
@@ -353,6 +389,7 @@ Award labels are printed for swimmers who placed in the top positions (1st-3rd, 
 Participation labels are for swimmers who competed but did NOT receive a place ribbon (finished 4th or lower) and did NOT get disqualified.
 
 **Information on Label:**
+
 - Swimmer Name
 - Team
 - Event Name
@@ -362,6 +399,7 @@ Participation labels are for swimmers who competed but did NOT receive a place r
 - *(No place shown)*
 
 **Who Gets Participation Labels:**
+
 - Swimmers who finished 4th or lower (depending on award cutoff)
 - Swimmers who were NOT disqualified
 - Most teams exclude DQ swimmers from participation labels (some teams include them - check with home team)
@@ -380,6 +418,7 @@ Participation labels are for swimmers who competed but did NOT receive a place r
 6. Hand printed labels to ribbon writers or coaches
 
 **Relay Events:**
+
 - **Excluded Places:** `1-1` (only 1st place gets ribbons)
 - This means 2nd, 3rd, 4th+ relay swimmers get participation labels
 - Sort by team for easy distribution
@@ -389,22 +428,26 @@ Participation labels are for swimmers who competed but did NOT receive a place r
 ##### Label Printing Best Practices
 
 **Timing:**
+
 - Print individual event labels after Event 30 (events 1-30)
 - Print remaining individual events after Event 52 (events 31-52)
 - Print relay labels after all relay events complete (events 53-56)
 - Adjust timing based on how full label sheets get
 
 **Organization:**
+
 - Print award labels first, then participation labels for the same events
 - Keep labels organized by event or team (depending on sort method)
 - Coordinate with ribbon writers on their preferred sort order
 
 **Common Issues:**
+
 - **Wasted Labels:** If sheets aren't filling up, wait for more events before printing
 - **Missing Swimmers:** Verify all times are entered and Heat Place values are set before printing
 - **DQ Swimmers Appearing:** Double-check "Include DQs" is unchecked for participation labels
 
 **Label Format:**
+
 - Only Avery 5160 format is supported (30 labels per sheet, 1" x 2-5/8" each)
 - Have extra label sheets available in case of printing errors
 
@@ -461,6 +504,7 @@ See [Publicity Processor wiki page](publicity-processor.md) for detailed export 
 **Problem:** You entered a time incorrectly and need to fix it.
 
 **Solution:**
+
 1. Click in the **Result Time** field for the swimmer
 2. Delete the incorrect time
 3. Enter the correct time
@@ -476,6 +520,7 @@ See [Publicity Processor wiki page](publicity-processor.md) for detailed export 
 **Problem:** You checked the DQ box for the wrong swimmer.
 
 **Solution:**
+
 1. Locate the incorrectly marked swimmer
 2. Uncheck the **DQ** checkbox
 3. Find the correct swimmer
@@ -491,6 +536,7 @@ See [Publicity Processor wiki page](publicity-processor.md) for detailed export 
 **Problem:** Swimmers are scoring points who should be exhibition.
 
 **Solution:**
+
 1. Click on the swimmer's name
 2. Check the **EXH** checkbox (far right of screen)
 3. Verify the swimmer no longer contributes to team score
@@ -505,6 +551,7 @@ See [Publicity Processor wiki page](publicity-processor.md) for detailed export 
 **Problem:** Clicked "Load Times" but times didn't populate.
 
 **Solution:**
+
 1. Verify Time Drops operator has saved the race
 2. Ask Time Drops operator for the **race number**
 3. Check that Meet Maestro timing system is configured:
@@ -523,6 +570,7 @@ See [Publicity Processor wiki page](publicity-processor.md) for detailed export 
 **Problem:** Coach requests a meet change but it's too late.
 
 **Solution:**
+
 1. Check how many events remain until the event being changed
 2. If less than 3 events out, politely explain:
    - *"I'm sorry, but per GPSA rules, meet changes must be submitted at least 3 events before the event. Since we're currently on Event X and you're requesting a change to Event Y, I cannot accept this change."*
@@ -537,6 +585,7 @@ See [Publicity Processor wiki page](publicity-processor.md) for detailed export 
 **Problem:** A meet change requires moving a swimmer to a different heat or lane.
 
 **Solution:**
+
 1. Verify the change is permitted (3+ events out)
 2. Locate the swimmer in their current heat
 3. Click and drag the swimmer's row to the new position, OR:
@@ -555,6 +604,7 @@ See [Publicity Processor wiki page](publicity-processor.md) for detailed export 
 **Problem:** The meet score is visible even though it should be hidden.
 
 **Solution:**
+
 1. Go to **Settings → Mobile App**
 2. Verify all three Score Display options are OFF (grey):
    - Combined
@@ -571,6 +621,7 @@ See [Publicity Processor wiki page](publicity-processor.md) for detailed export 
 **Problem:** During post-meet validation, you notice some Heat 1 swimmers don't have Heat Place values.
 
 **Solution:**
+
 1. Locate the Place Judge Form for that event
 2. Identify the missing swimmers' finishing positions
 3. Enter the Heat Place values in Meet Maestro
@@ -619,21 +670,25 @@ See [Publicity Processor wiki page](publicity-processor.md) for detailed export 
 ### Communication Tips
 
 **With Timers:**
+
 - Remind timers to clearly mark lane numbers on lane slips
 - Request legible handwriting for manual times
 - Ask for immediate notification of any timing issues
 
 **With Coaches:**
+
 - Be polite but firm about meet change deadlines (3 events out)
 - Explain that exhibition status affects team scores
 - Direct rules questions to the referee
 
 **With Referee:**
+
 - Notify immediately of any timing system failures
 - Ask for clarification on questionable DQs
 - Request post-meet validation when ready
 
 **With Time Drops Operator:**
+
 - Confirm race is saved before clicking "Load Times"
 - Request race number if times don't load automatically
 - Coordinate on any timing discrepancies

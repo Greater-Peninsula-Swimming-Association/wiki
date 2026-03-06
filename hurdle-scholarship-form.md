@@ -23,6 +23,7 @@ An annual scholarship awarded by the Greater Peninsula Swimming Association to g
 :::
 
 ::: {.content-visible when-format="pdf"}
+
 ```{=latex}
 \begin{center}
 \includegraphics[width=1.5in]{assets/scholarships/J.Kyle_Hurdle.jpg}
@@ -38,6 +39,7 @@ An annual scholarship awarded by the Greater Peninsula Swimming Association to g
 \end{minipage}
 \end{center}
 ```
+
 :::
 
 ---

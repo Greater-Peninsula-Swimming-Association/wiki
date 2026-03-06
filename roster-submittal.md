@@ -28,10 +28,12 @@ Before using the formatter tool, gather the following:
 ### 2. Gather Contact Information
 
 **GPSA Representatives** - Your team's designated league representatives:
+
 - Full name, phone number, email address
 - Most teams have 1-2 GPSA Representatives
 
 **Coaches** - Head coach and assistant coaches:
+
 - Full name, phone number (optional), email address
 
 ### 3. Gather Officials List
@@ -208,6 +210,7 @@ Submit roster updates when:
 **Cause:** SwimTopia age group assignments may not match GPSA age groups.
 
 **Solution:**
+
 - Verify swimmer birthdates in SwimTopia
 - Check the age-up date setting for your team
 - The tool strips gender prefixes automatically (e.g., "Boys 9-10" becomes "9-10")
@@ -217,6 +220,7 @@ Submit roster updates when:
 **Cause:** Browser localStorage was cleared, or you're using a different browser/device.
 
 **Solution:**
+
 - Re-enter the information (it will auto-save)
 - Use the same browser and device consistently
 - Consider keeping a backup document with contact information
@@ -226,6 +230,7 @@ Submit roster updates when:
 **Cause:** The email format is invalid.
 
 **Solution:**
+
 - Verify the email includes `@` and a domain (e.g., `name@example.com`)
 - Check for extra spaces or typos
 - The border turns green when the format is valid
@@ -235,6 +240,7 @@ Submit roster updates when:
 **Cause:** Browser clipboard permissions or compatibility issue.
 
 **Solution:**
+
 - Use a modern browser (Chrome, Firefox, Safari, Edge)
 - Allow clipboard permissions if prompted
 - Refresh the page and try again

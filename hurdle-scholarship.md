@@ -36,7 +36,7 @@ Kyle was driven and determined to be a winner, both in the water and in life. He
 Since the start of the J. Kyle Hurdle Swim Clinic in 2022 as a fundraiser, the total scholarship fund has increased to **$2,800 annually**, distributed as follows:
 
 | Place | Award Amount |
-|-------|--------------|
+| --- | --- |
 | 1st Place (Male & Female) | $800 each |
 | 2nd Place (Male & Female) | $400 each |
 | Honorable Mention (Male & Female) | $200 each |

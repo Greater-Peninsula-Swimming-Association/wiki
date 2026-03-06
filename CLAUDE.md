@@ -38,9 +38,11 @@ last_updated: Month Year
 ```
 
 **Required fields:**
+
 - `title` - Page title (displayed as H1)
 
 **Optional fields:**
+
 - `toc` - Enable/disable table of contents (default: true)
 - `last_updated` - Human-readable update timestamp
 
@@ -65,6 +67,7 @@ Link to other wiki pages using **relative paths**:
 ```
 
 For section links within a page:
+
 ```markdown
 [Scorekeeper Post-Meet](scorekeeper.md#post-meet-procedures)
 ```
@@ -78,17 +81,20 @@ For section links within a page:
 The GPSA Rulebook is published at `https://rulebook.gpsaswimming.org/`. Always link to relevant rulebook sections when discussing rules or procedures.
 
 **When to add rulebook links:**
+
 - Any mention of official rules, requirements, or procedures
 - Deadlines and consequences defined by league rules
 - Role responsibilities (officials, representatives, coaches)
 - Scoring, eligibility, protests, postponements
 
 **Link format:**
+
 ```markdown
 See [GPSA Rulebook - Section Name](https://rulebook.gpsaswimming.org/page.html#section-anchor).
 ```
 
 **Available rulebook pages:**
+
 - `officials.html` - Roles, responsibilities, certification
 - `conduct-of-meets.html` - Meet procedures, scheduling, protests
 - `eligibility-and-rosters.html` - Roster rules, eligibility
@@ -103,12 +109,14 @@ See [GPSA Rulebook - Section Name](https://rulebook.gpsaswimming.org/page.html#s
 Link to related wiki pages throughout content where contextually relevant.
 
 **When to add wiki links:**
+
 - First mention of a process that has its own guide
 - References to tools, procedures, or roles with dedicated pages
 - "See also" or "for more details" contexts
 - Tables listing roles or equipment (link role names to their guides)
 
 **Examples of good contextual linking:**
+
 ```markdown
 | [Scorekeeper](scorekeeper.md) | 1 |
 ```
@@ -140,7 +148,7 @@ When creating or substantially modifying a wiki page:
 Use these **standard team abbreviations** consistently:
 
 | Abbreviation | Team Name |
-|--------------|-----------|
+| --- | --- |
 | BLMAR | Beaconsdale |
 | COL | Colony |
 | CV | Coventry |
@@ -164,6 +172,7 @@ Use these **standard team abbreviations** consistently:
 ### Division Structure
 
 GPSA has three divisions:
+
 - **Red Division**
 - **White Division**
 - **Blue Division**
@@ -171,6 +180,7 @@ GPSA has three divisions:
 ### Age Groups
 
 Standard age groups (age as of June 1st):
+
 - 6 & Under
 - 7-8
 - 9-10
@@ -205,6 +215,7 @@ When documenting web tools (like the three existing tools), follow this structur
 ### File Naming Conventions
 
 Meet results follow strict naming:
+
 ```
 YYYY-MM-DD_TEAM1_v_TEAM2.html
 Example: 2025-06-16_GG_v_WW.html

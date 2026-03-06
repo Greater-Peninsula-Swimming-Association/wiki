@@ -132,6 +132,7 @@ Away meets will typically require:
 Record books track team and pool records over time.
 
 **Official Documentation:**
+
 - [Creating a Record Book](https://help.swimtopia.com/hc/en-us/articles/360022227232-Creating-a-Record-Book)
 - [Managing a Record Book](https://help.swimtopia.com/hc/en-us/articles/360022469891)
 
@@ -190,6 +191,7 @@ Bulk entries can be completed by clicking **Edit Entries** in the upper right ha
 To aid in the automatic seeding and scoring of the meet using Meet Maestro, exhibition swimmers must be declared during the entry selection process. This is accomplished using the **Exh** checkbox during swimmer entry selection as demonstrated below.
 
 **Official Documentation:**
+
 - [Exhibition Events/Athletes](https://help.swimtopia.com/hc/en-us/articles/211075983-Exhibition-Events-Athletes#h_01G66B6EY9PCKWM29NDX1S30YH)
 - [If performed in Meet Maestro on deck](https://help.swimtopia.com/hc/en-us/articles/360010479811#h_01G667F30TV86TT8YMJE78FSB5)
 
@@ -345,7 +347,7 @@ Place Judge Forms are used by sweep judges to record the official order of finis
 Configure the report with these settings:
 
 | Setting | Value | Reason |
-|---------|-------|--------|
+| --- | --- | --- |
 | **Events** | `1-56` | All individual and relay events |
 | **Heats** | `1-1` | Only Heat 1 is scored |
 | **Pages Per Sheet** | 2 | Saves paper while remaining readable |
@@ -363,11 +365,13 @@ Give the printed Place Judge Forms to the **head sweep judge** or **meet referee
 ### Troubleshooting
 
 **Forms are blank or missing events:**
+
 - Verify the meet has been merged
 - Check that entries exist for all events
 - Ensure the heat filter is set to `1-1` (not `1-0` or empty)
 
 **Forms show wrong swimmers:**
+
 - Verify exhibition swimmers are marked correctly in entries
 - Check that the meet was re-seeded after any entry changes
 
@@ -394,14 +398,17 @@ Once in the Settings menu, click on the **Mobile App** subheader on the far left
 Manual timing is equivalent to using stopwatches (battery operated, digital read-out) to record the duration of the individual swim.
 
 **Starting the Watch:**
+
 - Start at the instant of observing the visual starting signal
 - If the visual starting signal is not observed, start upon hearing the starting signal
 
 **Stopping the Watch:**
+
 - Stop when any part of the swimmer touches the wall at the completion of the distance of the event
 - Record times to the hundredths place (two decimals) with no rounding
 
 **Timer Requirements:**
+
 - **One timer:** Recorded time is the official time
 - **Two timers:** Average the recorded times to determine the official time
 - **Three timers:** Use the intermediate (middle) time as the official time
@@ -411,11 +418,13 @@ Manual timing is equivalent to using stopwatches (battery operated, digital read
 A Semi-Automatic Timing System begins automatically with an electronic signal from the starting unit and ends manually when the timer pushes their button at the finish of the race.
 
 **Process:**
+
 - System starts automatically with electronic starting signal
 - Timer presses button when any part of the swimmer touches the wall
 - Times are automatically transmitted to a central system integrated with Meet Maestro
 
 **Timer Requirements:**
+
 - **One timer:** Recorded time is the official time
 - **Two timers:** Average the recorded times to determine the official time
 - **Three timers:** Use the intermediate (middle) time as the official time
@@ -449,6 +458,7 @@ Timers record the official times for each swimmer in their assigned lane.
 Stroke and Turn Judges ensure swimmers comply with stroke rules and proper turns.
 
 **Official Rules:**
+
 - [USA Swimming Rulebook - Article 101 (Strokes)](https://www.usaswimming.org/docs/default-source/rules-regulations/2023-rulebook.pdf)
 - [USA Swimming Rulebook - Article 102.13](https://www.usaswimming.org/docs/default-source/rules-regulations/2023-rulebook.pdf)
 

@@ -9,7 +9,7 @@ Each summer, GPSA recognizes outstanding swimmers and coaches through two specia
 ## Programs at a Glance
 
 | Program | For | Award | Deadline |
-|---------|-----|-------|----------|
+| --- | --- | --- | --- |
 | [J. Kyle Hurdle Scholarship](hurdle-scholarship.md) | Graduating seniors | Up to $800 | {{< meta gpsa.scholarship-deadline >}} |
 | [Kei Lamberson Coach Award](lamberson-award.md) | Coaches | $500 | {{< meta gpsa.scholarship-deadline >}} |
 
@@ -58,7 +58,7 @@ The Kei Lamberson Award honors a beloved Marlbank coach who approached life with
 ## Key Dates for {{< meta gpsa.season >}}
 
 | Date | Event |
-|------|-------|
+| --- | --- |
 | **{{< meta gpsa.scholarship-deadline >}}** | Application/nomination deadline (midnight) |
 | **{{< meta gpsa.city-meet-date >}}** | Winners announced at the Championship Meet |
 
