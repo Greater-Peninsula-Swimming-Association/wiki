@@ -10,7 +10,7 @@ This guide explains how to maintain the GPSA season results archive. The archive
 
 To set up a new season (e.g., 2026):
 
-1. Create the year folder: `results/2026/`
+1. Create the year folder: `2026/` in the [`results` repo](https://github.com/Greater-Peninsula-Swimming-Association/results)
 2. Create `divisions.csv` with team assignments (see format below)
 3. Commit both to the repository
 4. Add result HTML files as meets complete - the archive rebuilds automatically
@@ -21,7 +21,7 @@ To set up a new season (e.g., 2026):
 
 A GitHub Action automatically rebuilds the season archive when:
 
-- HTML result files are added to `results/YYYY/`
+- HTML result files are added to `YYYY/` in the `results` repo
 - The `divisions.csv` file is added or updated
 - Someone manually triggers a rebuild
 
@@ -34,8 +34,10 @@ The action runs `build_archive.py` which:
 
 ### File Structure
 
+Results live in the [`results` repo](https://github.com/Greater-Peninsula-Swimming-Association/results) (served at `results.gpsaswimming.org`):
+
 ```
-results/
+results repo root/
 ├── index.html              # Main results landing page
 ├── 2025/
 │   ├── divisions.csv       # Team division assignments (required)
@@ -135,7 +137,7 @@ Result HTML files are generated using the [Publicity Processor](publicity-proces
 1. Export SDIF results from Meet Maestro after the meet
 2. Process through the Publicity Processor tool
 3. Save with the correct filename format
-4. Commit to the appropriate `results/YYYY/` folder
+4. Commit to the appropriate `YYYY/` folder in the `results` repo
 
 See [Publicity Submittal Process](publicity-submittal.md) for detailed instructions.
 
@@ -153,8 +155,8 @@ If you need to manually trigger a rebuild (e.g., after fixing a result file):
 
 The season archives are published at:
 
-- **All seasons:** https://www.gpsaswimming.org/results/
-- **Specific year:** https://www.gpsaswimming.org/results/2025/
+- **All seasons:** https://results.gpsaswimming.org/
+- **Specific year:** https://results.gpsaswimming.org/2025/
 
 Each season archive includes:
 
@@ -203,7 +205,7 @@ Each season archive includes:
 
 ### Pre-Season
 
-1. Create the year folder early (e.g., `results/2026/`)
+1. Create the year folder early (e.g., `2026/`) in the `results` repo
 2. Add `divisions.csv` as soon as division assignments are finalized
 3. Commit and verify the empty archive page generates
 

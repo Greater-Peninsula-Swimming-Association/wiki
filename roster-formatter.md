@@ -8,7 +8,7 @@ The **GPSA Roster Formatter** is a comprehensive web-based tool that processes S
 
 ## Quick Start
 
-1. Visit [Roster Formatter Tool](https://publicity.gpsaswimming.org/tools/roster.html)
+1. Visit [Roster Formatter Tool](https://tools.gpsaswimming.org/roster.html)
 2. Upload your SwimTopia roster CSV file
 3. Add team contacts and officials information
 4. Review the formatted preview
@@ -180,7 +180,7 @@ Exports are **HTML-only** (no embedded CSS) and reference external stylesheets:
 - **Contacts**: `/css/gpsa-roster-contact.css`
 - **Officials**: `/css/gpsa-roster-officials.css`
 
-These stylesheets are hosted on `publicity.gpsaswimming.org` and automatically apply when the HTML is published on SwimTopia.
+These stylesheets are hosted on `css.gpsaswimming.org` and automatically apply when the HTML is published on SwimTopia.
 
 ## Using the Formatted HTML
 
@@ -311,7 +311,7 @@ The tool saves to browser localStorage:
 ### For Webmasters
 
 1. **Use consistent formatting** - Same tool for all teams
-2. **Update external CSS** - Ensure stylesheets on publicity.gpsaswimming.org are current
+2. **Update external CSS** - Ensure stylesheets on css.gpsaswimming.org are current
 3. **Test on mobile** - Verify responsive display on phones/tablets
 4. **Archive old rosters** - Save HTML for historical reference
 
@@ -393,6 +393,6 @@ For issues or questions:
 
 **Quick Links:**
 
-- [Access the Tool](https://publicity.gpsaswimming.org/tools/roster.html)
+- [Access the Tool](https://tools.gpsaswimming.org/roster.html)
 - [GPSA Representative Duties](gpsa-rep-duties.md)
 - [SwimTopia Guidelines](swimtopia-guidelines.md)

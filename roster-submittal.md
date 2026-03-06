@@ -9,7 +9,7 @@ This guide walks GPSA Representatives and administrators through the complete pr
 ## Quick Reference
 
 - **When to publish:** Prior to first dual meet and whenever roster changes
-- **Tool used:** [GPSA Roster Formatter](https://publicity.gpsaswimming.org/tools/roster.html)
+- **Tool used:** [GPSA Roster Formatter](https://tools.gpsaswimming.org/roster.html)
 - **Data source:** SwimTopia Athlete Roster CSV export
 - **Where to publish:** Your team's roster page on the league SwimTopia site
 
@@ -297,7 +297,7 @@ The formatter tool automatically saves your contacts and officials to your brows
 
 ### Related Resources
 
-- [Roster Formatter Tool](https://publicity.gpsaswimming.org/tools/roster.html) - The formatting tool
+- [Roster Formatter Tool](https://tools.gpsaswimming.org/roster.html) - The formatting tool
 - [Roster Formatter Documentation](roster-formatter.md) - Detailed tool documentation
 - [SwimTopia Guidelines](swimtopia-guidelines.md) - Complete SwimTopia guide
 

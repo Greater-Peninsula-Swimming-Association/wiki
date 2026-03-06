@@ -8,7 +8,7 @@ The **GPSA Meet Publicity Tool** (also called the Publicity Processor) is a powe
 
 ## Quick Start
 
-1. Visit [Publicity Processor Tool](https://publicity.gpsaswimming.org/tools/publicity.html)
+1. Visit [Publicity Processor Tool](https://tools.gpsaswimming.org/publicity.html)
 2. Upload your SDIF results file (.sd3, .txt, or .zip)
 3. Review the parsed results in the preview
 4. (Optional) Mark forfeit or special circumstances
@@ -132,7 +132,7 @@ If the meet had special circumstances (forfeit, cancellation, weather override),
 2. Browser prompts you to save file
 3. **Use this naming convention:** `YYYY-MM-DD_TEAM1_v_TEAM2.html`
    - Example: `2025-06-16_GG_v_WW.html`
-4. Save to your results directory (e.g., `results/2025/`)
+4. Save and commit to the appropriate `YYYY/` folder in the [`results` repo](https://github.com/Greater-Peninsula-Swimming-Association/results)
 
 **Naming Convention is Critical!** The archive builder (`build_archive.py`) relies on this exact format to:
 
@@ -393,7 +393,7 @@ All are parsed and displayed consistently.
 
 ### For Webmasters
 
-1. **Organize by year** - Keep files in `results/YYYY/` directories
+1. **Organize by year** - Keep files in `YYYY/` folders in the `results` repo
 2. **Consistent naming** - Enforce `YYYY-MM-DD_TEAM1_v_TEAM2.html` format
 3. **Run archive builder** - After each meet to update standings
 4. **Backup SDIF files** - Keep original .sd3 files for reference
@@ -474,11 +474,11 @@ The `build_archive.py` script relies on filenames to:
 ### Archive Builder Workflow
 
 1. Export meet results with this tool → `2025-06-16_GG_v_WW.html`
-2. Save to results directory → `results/2025/`
-3. Run archive builder:
+2. Commit to the `results` repo → `2025/`
+3. Run archive builder (from `results` repo root):
 
    ```bash
-   python dev-tools/build_archive.py -i results/2025 -o results/2025
+   python scripts/build_season_index.py -i 2025 -o 2025
    ```
 
 4. Generated archive includes all meets with standings
@@ -495,7 +495,7 @@ Files with override scores work seamlessly:
 
 - [Meet Schedule Generator](meet-schedule-generator.md) - Format division schedules
 - [Roster Formatter](roster-formatter.md) - Format team rosters
-- **Archive Builder** (`dev-tools/build_archive.py`) - Generate season archives
+- **Archive Builder** (`scripts/build_season_index.py` in the `results` repo) - Generate season archives
 
 ## FAQ
 
@@ -549,6 +549,6 @@ For issues or questions:
 
 **Quick Links:**
 
-- [Access the Tool](https://publicity.gpsaswimming.org/tools/publicity.html)
+- [Access the Tool](https://tools.gpsaswimming.org/publicity.html)
 - [Meet Preparation Guide](meet-preparation.md)
 - [SwimTopia Guidelines](swimtopia-guidelines.md)

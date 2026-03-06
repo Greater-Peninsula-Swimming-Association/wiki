@@ -142,7 +142,7 @@ The primary use case is publishing division schedules to the main GPSA website:
 3. Upload to the appropriate location on the GPSA website
 4. Link from the main schedule page
 
-**Note:** The HTML references external CSS at `https://publicity.gpsaswimming.org/css/gpsa-main.css` which provides the styling.
+**Note:** The HTML references external CSS at `https://css.gpsaswimming.org/gpsa-main.css` which provides the styling.
 
 ### For SwimTopia Team Pages
 
@@ -159,7 +159,7 @@ Individual teams can also publish division schedules on their team sites:
 
 If embedding on another platform:
 
-1. Ensure the external CSS file is accessible: `https://publicity.gpsaswimming.org/css/gpsa-main.css`
+1. Ensure the external CSS file is accessible: `https://css.gpsaswimming.org/gpsa-main.css`
 2. Paste the HTML into your page source
 3. Test responsiveness on mobile devices
 

@@ -448,7 +448,7 @@ Collect all meet paperwork and hand to the **home team GPSA Representative**:
 The GPSA Representative (or designated person) will export results after validation:
 
 1. Export meet results in **SDIF format** (.sd3 or .zip file)
-2. Process through [GPSA Publicity Processor](https://publicity.gpsaswimming.org/tools/publicity.html)
+2. Process through [GPSA Publicity Processor](https://tools.gpsaswimming.org/publicity.html)
 3. Save as `YYYY-MM-DD_TEAM1_v_TEAM2.html`
 4. Submit to GPSA webmaster for season archive
 
