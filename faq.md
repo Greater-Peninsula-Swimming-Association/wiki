@@ -126,31 +126,27 @@ See the [GPSA Rulebook - Certification](https://rulebook.gpsaswimming.org/offici
 
 ## Summer Splash Invitational
 
-The Summer Splash Invitational is a season-ending awards-style meet celebrating participation for all GPSA swimmers.
-
-For complete information including entry deadlines, fees, and meet format, visit the [GPSA Invitationals site](https://invitationals.gpsaswimming.org).
+Summer Splash is GPSA's end-of-season championship meet — a competition-grade venue, touchpads, live timing, medals for the top 8, and no team scoring. See the [Summer Splash Invitational guide](summer-splash-invitational.md) for a full overview.
 
 ### Who can compete at Summer Splash?
 
-Summer Splash is open to all GPSA swimmers. Swimmers may enter any event for which they do not have a Championship Meet qualifying time.
+Summer Splash eligibility is based on City Meet qualifying standards — swimmers may enter events for which their time is slower than the qualifying standard. Your coach and GPSA Representative will handle entries.
 
 ### When is Summer Splash?
 
-Summer Splash is typically held the Saturday before the Championship Meet.
-
-The {{< meta gpsa.season >}} Summer Splash Invitational is **{{< meta gpsa.summer-splash-date >}}**.
+Summer Splash is held the Saturday before City Meet. The date is published on the [GPSA Meet Schedule](https://gpsaswimming.org/meet-schedule).
 
 ### Is there a fee for Summer Splash?
 
 Yes, the league charges a fee per swimmer and per event entered. See the [GPSA Invitationals site](https://invitationals.gpsaswimming.org) for current fees. Some teams may cover these fees—check with your GPSA Representative.
 
-## Championship Meet (City Meet)
+## City Meet (Championship Meet)
 
-For complete information about the Championship Meet including qualifying standards, entry deadlines, fees, and meet format, visit the [GPSA Invitationals site](https://invitationals.gpsaswimming.org).
+See the [City Meet guide](championship-meet.md) for a full overview including qualifying, entries, day-of schedule, and what to bring.
 
 ### Who can compete at the Championship Meet?
 
-Qualifying standards are published before the season. Swimmers must achieve the minimum time in their age group and event during the regular season to compete.
+Qualifying standards are published before the season. Swimmers must achieve the minimum time in their age group and event during the regular season to compete. See [Championship Meet Qualifying Times](qualifying-times.md).
 
 ### When is the Championship Meet?
 

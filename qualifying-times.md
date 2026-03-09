@@ -1,5 +1,5 @@
 ---
-title: Championship Meet Qualifying Times
+title: City Meet Qualifying Times
 toc: true
 date-modified: 2021-07-18
 format:
@@ -30,7 +30,7 @@ format:
         \pagestyle{empty}
 ---
 
-These are the current qualifying times for the Championship Meet (City Meet). Swimmers must achieve these times during the regular season to qualify.
+These are the current qualifying times for the City Meet (Championship Meet). Swimmers must achieve these times during the regular season to qualify.
 
 ::: {.content-visible when-format="html"}
 

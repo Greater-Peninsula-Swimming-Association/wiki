@@ -40,11 +40,20 @@ website:
       - text: "Home"
         href: index.md
 
-      - section: "About GPSA"
+      - section: "League Information"
         contents:
           - about.md
           - faq.md
+
+      - section: "Invitationals"
+        contents:
+          - summer-splash-invitational.md
+          - championship-meet.md
           - qualifying-times.md
+
+      - section: "Venues"
+        contents:
+          - hva-participant-guide.md
 
       - section: "Team Administration"
         contents:

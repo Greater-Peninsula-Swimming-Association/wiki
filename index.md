@@ -11,11 +11,20 @@ The Greater Peninsula Swimming Association is a youth summer swim league serving
 
 ## Available Pages
 
-### About GPSA
+### League Information
 
 - [About GPSA](about.md) - Learn about our league structure, history, and mission
 - [FAQ](faq.md) - Frequently asked questions
-- [Championship Meet Qualifying Times](qualifying-times.md) - Time standards for Championship Meet events
+
+### Invitationals
+
+- [Summer Splash Invitational](summer-splash-invitational.md) - End-of-season championship meet for swimmers not competing at City Meet
+- [City Meet (Championship Meet)](championship-meet.md) - Qualifying, entries, day-of guide
+- [City Meet Qualifying Times](qualifying-times.md) - Time standards for City Meet events
+
+### Venues
+
+- [Hampton Virginia Aquaplex Participant Guide](hva-participant-guide.md) - Parking, seating, and facility rules for HVA meets
 
 ### Web Tools Documentation
 
