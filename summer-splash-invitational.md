@@ -4,17 +4,42 @@ toc: true
 last_updated: March 2026
 ---
 
-Every GPSA swimmer deserves a championship meet at the end of the season. For most swimmers in the league, Summer Splash is that meet — a full day of racing in a competition-grade venue with touchpads, live timing, and a scoreboard. Real starting blocks, electronic finishes, and medals for the top 8 in every event.
+In the GPSA, we believe every swimmer deserves a milestone moment. While the
+league year culminates in several ways, Summer Splash serves as the definitive
+championship-style season finale for the majority of our league. It’s the day
+to shave time and see your hard work pay off on the big stage with medals for
+the top 8 in every event.
 
-The meet is **not scored by team** — no standings, no pressure — just swimmers racing their best in front of family and teammates.
+The meet is **not scored by team** — just swimmers racing their best in front of
+family and teammates.
 
-Summer Splash is typically held the Saturday before City Meet. The date for each season is published on the [GPSA Meet Schedule](https://gpsaswimming.org/meet-schedule) and the [GPSA Invitationals site](https://invitationals.gpsaswimming.org).
+Summer Splash is typically held the Saturday before City Meet. The date for each
+season is published on the [GPSA Meet Schedule](https://gpsaswimming.org/meet-schedule)
+and the [GPSA Invitationals site](https://invitationals.gpsaswimming.org).
 
 ## Eligibility
 
-Summer Splash is open to all GPSA swimmers who have a time **slower** than the City Meet qualifying standard in that event. Swimmers who have already qualified for City Meet in an event may not enter that event at Summer Splash — but they may enter events in which they have not qualified.
+Summer Splash is designed to give every athlete a chance to shine. The meet is
+open to **all GPSA swimmers**, with entries based on your **current season times**:
 
-For example, a swimmer who has qualified for City Meet in freestyle and backstroke can still compete at Summer Splash in breaststroke, butterfly, and IM. A swimmer who hasn't qualified in any event is eligible for the full range. Coaches and GPSA Representatives determine entries based on each swimmer's times.
+- **Target Your Best Times:** If your time in an event is currently slower than
+the City Meet qualifying standard, Summer Splash is your stage. It’s the perfect
+environment to shave time, hunt for a podium finish, and experience a premier
+meet atmosphere.
+- **Expand Your Range:** Already qualified for the City Meet in your main event?
+Congratulations! While you’ll save that specific event for City Meet, you
+are encouraged to enter any other events where you haven't yet met the qualifying
+standard.
+
+Whether you're aiming for a Top 8 finish, crushing a personal best, or making
+one last push for a City Meet cut, Summer Splash is your moment to shine on the
+big stage.
+
+For example, if you’ve already punched your ticket to City Meet in freestyle and
+backstroke, you can still race for the podium at Summer Splash in breaststroke,
+butterfly, and the IM! Swimmers who haven't locked in a City Meet cut yet have
+the green light to swim a full lineup of events. As always, your coaches and
+GPSA Representatives will help finalize your entries.
 
 **Age is determined as of June 1st of the current season.** See [Age Groups](faq.md#how-are-age-groups-determined) for details.
 
