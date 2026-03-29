@@ -95,6 +95,9 @@ website:
 format:
   # HTML output (website)
   html:
+    include-in-header:
+      text: |
+        <script defer src="https://citadel.dadalorian.com/stardust" data-website-id="93aa5da9-d837-4bb3-996d-beab91957ad7"></script>
     theme: [cosmo, _custom.scss]
     toc: true
     toc-depth: 3
